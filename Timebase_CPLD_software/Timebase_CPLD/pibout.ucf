@@ -1,0 +1,14 @@
+NET "Freq_control<0>" LOC = P22;
+NET "Freq_control<1>" LOC = P21;
+NET "Freq_control<2>" LOC = P20;
+NET "Freq_control<3>" LOC = P19;
+NET "CPU_IRQ"         LOC = P23;
+NET "DAC_LDAC"        LOC = P27;
+NET "COUNT_EN"        LOC = P28;
+NET "IN_10MHz"        LOC = P43;
+NET "DDS_FREQ"        LOC = P1;
+#Created by Constraints Editor (xc9572xl-vq44-10) - 2022/05/09
+NET "IN_10MHz" TNM_NET = IN_10MHz;
+TIMESPEC TS_IN_10MHz = PERIOD "IN_10MHz" 100 ns HIGH 50%;
+NET "DDS_FREQ" TNM_NET = DDS_FREQ;
+TIMESPEC TS_DDS_FREQ = PERIOD "DDS_FREQ" 400 ns HIGH 50%;

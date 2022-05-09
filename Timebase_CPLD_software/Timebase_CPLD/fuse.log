@@ -1,0 +1,56 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o Z:/Timebase_CPLD/sch_isim_beh.exe -prj Z:/Timebase_CPLD/sch_beh.prj work.sch 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "Z:/Timebase_CPLD/sch.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture ld_v of entity LD [\LD('0')\]
+Compiling architecture behavioral of entity LD16_MXILINX_sch [ld16_mxilinx_sch_default]
+Compiling architecture and5b3_v of entity AND5B3 [and5b3_default]
+Compiling architecture and5b2_v of entity AND5B2 [and5b2_default]
+Compiling architecture and5b1_v of entity AND5B1 [and5b1_default]
+Compiling architecture and5_v of entity AND5 [and5_default]
+Compiling architecture and5b4_v of entity AND5B4 [and5b4_default]
+Compiling architecture behavioral of entity D4_16E_MXILINX_sch [d4_16e_mxilinx_sch_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture and2b1_v of entity AND2B1 [and2b1_default]
+Compiling architecture and3b2_v of entity AND3B2 [and3b2_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture and3b1_v of entity AND3B1 [and3b1_default]
+Compiling architecture and4b3_v of entity AND4B3 [and4b3_default]
+Compiling architecture and4b1_v of entity AND4B1 [and4b1_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture and4_v of entity AND4 [and4_default]
+Compiling architecture behavioral of entity AND6_MXILINX_sch [and6_mxilinx_sch_default]
+Compiling architecture behavioral of entity AND7_MXILINX_sch [and7_mxilinx_sch_default]
+Compiling architecture behavioral of entity AND8_MXILINX_sch [and8_mxilinx_sch_default]
+Compiling architecture behavioral of entity AND9_MXILINX_sch [and9_mxilinx_sch_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture and2b2_v of entity AND2B2 [and2b2_default]
+Compiling architecture nor4_v of entity NOR4 [nor4_default]
+Compiling architecture fdcp_v of entity FDCP [\FDCP('0')\]
+Compiling architecture behavioral of entity FDC_MXILINX_sch [\FDC_MXILINX_sch('0')\]
+Compiling architecture behavioral of entity CB8X1_MXILINX_sch [cb8x1_mxilinx_sch_default]
+Compiling architecture behavioral of entity CB16X1_MXILINX_sch [cb16x1_mxilinx_sch_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture behavioral of entity D2_4E_MXILINX_sch [d2_4e_mxilinx_sch_default]
+Compiling architecture fdce_v of entity FDCE [\FDCE('0')\]
+Compiling architecture behavioral of entity FTCE_MXILINX_sch [\FTCE_MXILINX_sch('0')\]
+Compiling architecture behavioral of entity CB2CE_MXILINX_sch [cb2ce_mxilinx_sch_default]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture behavioral of entity sch
+Time Resolution for simulation is 1ps.
+Waiting for 38 sub-compilation(s) to finish...
+Compiled 79 VHDL Units
+Built simulation executable Z:/Timebase_CPLD/sch_isim_beh.exe
+Fuse Memory Usage: 48668 KB
+Fuse CPU Usage: 2108 ms
