@@ -2,27 +2,27 @@ Command line:
    sch_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49160
+     -socket  49158
 
-Mon May 09 15:20:02 2022
+Mon May 09 17:31:01 2022
 
 
- Elaboration Time: 0.34375 sec
-
- Current Memory Usage: 679.404 Meg
-
- Total Signals          : 2138
- Total Nets             : 502
- Total Signal Drivers   : 456
- Total Blocks           : 467
- Total Primitive Blocks : 411
- Total Processes        : 456
- Total Traceable Variables  : 70
- Total Scalar Nets and Variables : 1042
-
- Total Simulation Time: 2.65625 sec
+ Elaboration Time: 0.25 sec
 
  Current Memory Usage: 679.404 Meg
 
-Mon May 09 15:28:16 2022
+ Total Signals          : 2094
+ Total Nets             : 476
+ Total Signal Drivers   : 430
+ Total Blocks           : 454
+ Total Primitive Blocks : 398
+ Total Processes        : 430
+ Total Traceable Variables  : 57
+ Total Scalar Nets and Variables : 1003
+
+ Total Simulation Time: 3.34375 sec
+
+ Current Memory Usage: 679.404 Meg
+
+Mon May 09 17:37:07 2022
 

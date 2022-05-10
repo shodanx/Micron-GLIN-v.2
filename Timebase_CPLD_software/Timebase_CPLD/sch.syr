@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total CPU time to Xst completion: 0.30 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total CPU time to Xst completion: 0.30 secs
  
 --> Reading design: sch.prj
 
@@ -76,39 +76,24 @@ wysiwyg                            : NO
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" in Library work.
-Entity <d2_4e_mxilinx_sch> compiled.
-Entity <d2_4e_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <ftce_mxilinx_sch> compiled.
-Entity <ftce_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <cb2ce_mxilinx_sch> compiled.
-Entity <cb2ce_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <and9_mxilinx_sch> compiled.
-Entity <and9_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <and8_mxilinx_sch> compiled.
-Entity <and8_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <and7_mxilinx_sch> compiled.
-Entity <and7_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <and6_mxilinx_sch> compiled.
-Entity <and6_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <fdc_mxilinx_sch> compiled.
-Entity <fdc_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <cb8x1_mxilinx_sch> compiled.
-Entity <cb8x1_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <cb16x1_mxilinx_sch> compiled.
-Entity <cb16x1_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <ld16_mxilinx_sch> compiled.
-Entity <ld16_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <d4_16e_mxilinx_sch> compiled.
-Entity <d4_16e_mxilinx_sch> (Architecture <behavioral>) compiled.
-Entity <sch> compiled.
-Entity <sch> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity d2_4e_mxilinx_sch is up to date.
+Architecture behavioral of Entity ftce_mxilinx_sch is up to date.
+Architecture behavioral of Entity cb2ce_mxilinx_sch is up to date.
+Architecture behavioral of Entity d4_16e_mxilinx_sch is up to date.
+Architecture behavioral of Entity ld4_mxilinx_sch is up to date.
+Architecture behavioral of Entity and9_mxilinx_sch is up to date.
+Architecture behavioral of Entity and8_mxilinx_sch is up to date.
+Architecture behavioral of Entity and7_mxilinx_sch is up to date.
+Architecture behavioral of Entity and6_mxilinx_sch is up to date.
+Architecture behavioral of Entity fdc_mxilinx_sch is up to date.
+Architecture behavioral of Entity cb8x1_mxilinx_sch is up to date.
+Architecture behavioral of Entity cb16x1_mxilinx_sch is up to date.
+Architecture behavioral of Entity sch is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
 Analyzing hierarchy for entity <sch> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <LD16_MXILINX_sch> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <D4_16E_MXILINX_sch> in library <work> (architecture <behavioral>).
 
@@ -117,6 +102,8 @@ Analyzing hierarchy for entity <CB16X1_MXILINX_sch> in library <work> (architect
 Analyzing hierarchy for entity <D2_4E_MXILINX_sch> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <CB2CE_MXILINX_sch> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LD4_MXILINX_sch> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <CB8X1_MXILINX_sch> in library <work> (architecture <behavioral>).
 
@@ -139,37 +126,17 @@ Analyzing hierarchy for entity <FDC_MXILINX_sch> in library <work> (architecture
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <sch> in library <work> (Architecture <behavioral>).
-    Set user-defined property "HU_SET =  CFG_L_28" for instance <CFG_L> in unit <sch>.
-    Set user-defined property "HU_SET =  XLXI_1_27" for instance <XLXI_1> in unit <sch>.
-    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <sch>.
-WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2230: Unconnected output port 'CEOD' of component 'CB16X1_MXILINX_sch'.
-WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2230: Unconnected output port 'CEOU' of component 'CB16X1_MXILINX_sch'.
-WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2230: Unconnected output port 'Q' of component 'CB16X1_MXILINX_sch'.
-WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2230: Unconnected output port 'TCU' of component 'CB16X1_MXILINX_sch'.
-    Set user-defined property "HU_SET =  XLXI_12_29" for instance <XLXI_12> in unit <sch>.
+    Set user-defined property "HU_SET =  XLXI_1_29" for instance <XLXI_1> in unit <sch>.
+WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2162: Unconnected output port 'CEOD' of component 'CB16X1_MXILINX_sch'.
+WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2162: Unconnected output port 'CEOU' of component 'CB16X1_MXILINX_sch'.
+WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2162: Unconnected output port 'Q' of component 'CB16X1_MXILINX_sch'.
+WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2162: Unconnected output port 'TCU' of component 'CB16X1_MXILINX_sch'.
+    Set user-defined property "HU_SET =  XLXI_12_27" for instance <XLXI_12> in unit <sch>.
     Set user-defined property "HU_SET =  XLXI_61_31" for instance <XLXI_61> in unit <sch>.
-WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2271: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_sch'.
+WARNING:Xst:753 - "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf" line 2203: Unconnected output port 'CEO' of component 'CB2CE_MXILINX_sch'.
     Set user-defined property "HU_SET =  XLXI_62_30" for instance <XLXI_62> in unit <sch>.
+    Set user-defined property "HU_SET =  XLXI_94_28" for instance <XLXI_94> in unit <sch>.
 Entity <sch> analyzed. Unit <sch> generated.
-
-Analyzing Entity <LD16_MXILINX_sch> in library <work> (Architecture <behavioral>).
-    Set user-defined property "INIT =  0" for instance <Q0> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q1> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q2> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q3> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q4> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q5> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q6> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q7> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q8> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q9> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q10> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q11> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q12> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q13> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q14> in unit <LD16_MXILINX_sch>.
-    Set user-defined property "INIT =  0" for instance <Q15> in unit <LD16_MXILINX_sch>.
-Entity <LD16_MXILINX_sch> analyzed. Unit <LD16_MXILINX_sch> generated.
 
 Analyzing Entity <D4_16E_MXILINX_sch> in library <work> (Architecture <behavioral>).
 Entity <D4_16E_MXILINX_sch> analyzed. Unit <D4_16E_MXILINX_sch> generated.
@@ -235,17 +202,19 @@ Analyzing generic Entity <FTCE_MXILINX_sch> in library <work> (Architecture <beh
     Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_sch>.
 Entity <FTCE_MXILINX_sch> analyzed. Unit <FTCE_MXILINX_sch> generated.
 
+Analyzing Entity <LD4_MXILINX_sch> in library <work> (Architecture <behavioral>).
+    Set user-defined property "INIT =  0" for instance <U0> in unit <LD4_MXILINX_sch>.
+    Set user-defined property "INIT =  0" for instance <U1> in unit <LD4_MXILINX_sch>.
+    Set user-defined property "INIT =  0" for instance <U2> in unit <LD4_MXILINX_sch>.
+    Set user-defined property "INIT =  0" for instance <U3> in unit <LD4_MXILINX_sch>.
+Entity <LD4_MXILINX_sch> analyzed. Unit <LD4_MXILINX_sch> generated.
+
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Performing bidirectional port resolution...
-
-Synthesizing Unit <LD16_MXILINX_sch>.
-    Related source file is "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf".
-Unit <LD16_MXILINX_sch> synthesized.
-
 
 Synthesizing Unit <D4_16E_MXILINX_sch>.
     Related source file is "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf".
@@ -255,6 +224,11 @@ Unit <D4_16E_MXILINX_sch> synthesized.
 Synthesizing Unit <D2_4E_MXILINX_sch>.
     Related source file is "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf".
 Unit <D2_4E_MXILINX_sch> synthesized.
+
+
+Synthesizing Unit <LD4_MXILINX_sch>.
+    Related source file is "//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf".
+Unit <LD4_MXILINX_sch> synthesized.
 
 
 Synthesizing Unit <AND6_MXILINX_sch>.
@@ -332,29 +306,16 @@ Macro Statistics
 =========================================================================
 
 Optimizing unit <sch> ...
-  implementation constraint: INIT=0	 : XLXI_3
-
-Optimizing unit <LD16_MXILINX_sch> ...
-  implementation constraint: INIT=0	 : Q0
-  implementation constraint: INIT=0	 : Q1
-  implementation constraint: INIT=0	 : Q2
-  implementation constraint: INIT=0	 : Q3
-  implementation constraint: INIT=0	 : Q4
-  implementation constraint: INIT=0	 : Q5
-  implementation constraint: INIT=0	 : Q6
-  implementation constraint: INIT=0	 : Q7
-  implementation constraint: INIT=0	 : Q8
-  implementation constraint: INIT=0	 : Q9
-  implementation constraint: INIT=0	 : Q10
-  implementation constraint: INIT=0	 : Q11
-  implementation constraint: INIT=0	 : Q12
-  implementation constraint: INIT=0	 : Q13
-  implementation constraint: INIT=0	 : Q14
-  implementation constraint: INIT=0	 : Q15
 
 Optimizing unit <D4_16E_MXILINX_sch> ...
 
 Optimizing unit <D2_4E_MXILINX_sch> ...
+
+Optimizing unit <LD4_MXILINX_sch> ...
+  implementation constraint: INIT=0	 : U0
+  implementation constraint: INIT=0	 : U1
+  implementation constraint: INIT=0	 : U2
+  implementation constraint: INIT=0	 : U3
 
 Optimizing unit <AND6_MXILINX_sch> ...
 
@@ -417,10 +378,10 @@ Cell Usage :
 #      OR3                         : 16
 #      VCC                         : 2
 #      XOR2                        : 18
-# FlipFlops/Latches                : 37
+# FlipFlops/Latches                : 24
 #      FDCE                        : 2
 #      FDCP                        : 18
-#      LD                          : 17
+#      LD                          : 4
 # Clock Buffers                    : 2
 #      BUFG                        : 2
 # IO Buffers                       : 7
@@ -441,12 +402,12 @@ Cell Usage :
 =========================================================================
 
 
-Total REAL time to Xst completion: 18.00 secs
-Total CPU time to Xst completion: 18.55 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 20.58 secs
  
 --> 
 
-Total memory usage is 263968 kilobytes
+Total memory usage is 262880 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    5 (   0 filtered)

@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : sch.vhf
--- /___/   /\     Timestamp : 05/09/2022 15:29:11
+-- /___/   /\     Timestamp : 05/09/2022 17:28:07
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -221,6 +221,274 @@ begin
                 CLR=>CLR,
                 T=>Q0_DUMMY,
                 Q=>Q1_DUMMY);
+   
+end BEHAVIORAL;
+
+
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
+entity D4_16E_MXILINX_sch is
+   port ( A0  : in    std_logic; 
+          A1  : in    std_logic; 
+          A2  : in    std_logic; 
+          A3  : in    std_logic; 
+          E   : in    std_logic; 
+          D0  : out   std_logic; 
+          D1  : out   std_logic; 
+          D2  : out   std_logic; 
+          D3  : out   std_logic; 
+          D4  : out   std_logic; 
+          D5  : out   std_logic; 
+          D6  : out   std_logic; 
+          D7  : out   std_logic; 
+          D8  : out   std_logic; 
+          D9  : out   std_logic; 
+          D10 : out   std_logic; 
+          D11 : out   std_logic; 
+          D12 : out   std_logic; 
+          D13 : out   std_logic; 
+          D14 : out   std_logic; 
+          D15 : out   std_logic);
+end D4_16E_MXILINX_sch;
+
+architecture BEHAVIORAL of D4_16E_MXILINX_sch is
+   attribute BOX_TYPE   : string ;
+   component AND5B3
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND5B3 : component is "BLACK_BOX";
+   
+   component AND5B2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND5B2 : component is "BLACK_BOX";
+   
+   component AND5B1
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND5B1 : component is "BLACK_BOX";
+   
+   component AND5
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND5 : component is "BLACK_BOX";
+   
+   component AND5B4
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND5B4 : component is "BLACK_BOX";
+   
+begin
+   I_36_53 : AND5B3
+      port map (I0=>A0,
+                I1=>A1,
+                I2=>A2,
+                I3=>A3,
+                I4=>E,
+                O=>D8);
+   
+   I_36_54 : AND5B2
+      port map (I0=>A1,
+                I1=>A2,
+                I2=>E,
+                I3=>A3,
+                I4=>A0,
+                O=>D9);
+   
+   I_36_55 : AND5B2
+      port map (I0=>A0,
+                I1=>A2,
+                I2=>E,
+                I3=>A3,
+                I4=>A1,
+                O=>D10);
+   
+   I_36_56 : AND5B1
+      port map (I0=>A2,
+                I1=>A0,
+                I2=>A1,
+                I3=>A3,
+                I4=>E,
+                O=>D11);
+   
+   I_36_57 : AND5B2
+      port map (I0=>A0,
+                I1=>A1,
+                I2=>E,
+                I3=>A3,
+                I4=>A2,
+                O=>D12);
+   
+   I_36_58 : AND5B1
+      port map (I0=>A1,
+                I1=>A0,
+                I2=>A2,
+                I3=>A3,
+                I4=>E,
+                O=>D13);
+   
+   I_36_59 : AND5B1
+      port map (I0=>A0,
+                I1=>A1,
+                I2=>A2,
+                I3=>A3,
+                I4=>E,
+                O=>D14);
+   
+   I_36_60 : AND5
+      port map (I0=>A3,
+                I1=>A2,
+                I2=>A1,
+                I3=>A0,
+                I4=>E,
+                O=>D15);
+   
+   I_36_61 : AND5B2
+      port map (I0=>A3,
+                I1=>A0,
+                I2=>E,
+                I3=>A2,
+                I4=>A1,
+                O=>D6);
+   
+   I_36_62 : AND5B1
+      port map (I0=>A3,
+                I1=>A2,
+                I2=>A1,
+                I3=>A0,
+                I4=>E,
+                O=>D7);
+   
+   I_36_63 : AND5B2
+      port map (I0=>A3,
+                I1=>A1,
+                I2=>E,
+                I3=>A2,
+                I4=>A0,
+                O=>D5);
+   
+   I_36_64 : AND5B3
+      port map (I0=>A0,
+                I1=>A1,
+                I2=>A3,
+                I3=>A2,
+                I4=>E,
+                O=>D4);
+   
+   I_36_65 : AND5B2
+      port map (I0=>A2,
+                I1=>A3,
+                I2=>E,
+                I3=>A0,
+                I4=>A1,
+                O=>D3);
+   
+   I_36_66 : AND5B3
+      port map (I0=>A0,
+                I1=>A3,
+                I2=>A2,
+                I3=>A1,
+                I4=>E,
+                O=>D2);
+   
+   I_36_67 : AND5B3
+      port map (I0=>A1,
+                I1=>A2,
+                I2=>A3,
+                I3=>A0,
+                I4=>E,
+                O=>D1);
+   
+   I_36_68 : AND5B4
+      port map (I0=>A3,
+                I1=>A2,
+                I2=>A1,
+                I3=>A0,
+                I4=>E,
+                O=>D0);
+   
+end BEHAVIORAL;
+
+
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
+entity LD4_MXILINX_sch is
+   port ( D0 : in    std_logic; 
+          D1 : in    std_logic; 
+          D2 : in    std_logic; 
+          D3 : in    std_logic; 
+          G  : in    std_logic; 
+          Q0 : out   std_logic; 
+          Q1 : out   std_logic; 
+          Q2 : out   std_logic; 
+          Q3 : out   std_logic);
+end LD4_MXILINX_sch;
+
+architecture BEHAVIORAL of LD4_MXILINX_sch is
+   attribute BOX_TYPE   : string ;
+   component LD
+      generic( INIT : bit :=  '0');
+      port ( D : in    std_logic; 
+             G : in    std_logic; 
+             Q : out   std_logic);
+   end component;
+   attribute BOX_TYPE of LD : component is "BLACK_BOX";
+   
+begin
+   U0 : LD
+      port map (D=>D0,
+                G=>G,
+                Q=>Q0);
+   
+   U1 : LD
+      port map (D=>D1,
+                G=>G,
+                Q=>Q1);
+   
+   U2 : LD
+      port map (D=>D2,
+                G=>G,
+                Q=>Q2);
+   
+   U3 : LD
+      port map (D=>D3,
+                G=>G,
+                Q=>Q3);
    
 end BEHAVIORAL;
 
@@ -1708,328 +1976,6 @@ use ieee.numeric_std.ALL;
 library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
-entity LD16_MXILINX_sch is
-   port ( D : in    std_logic_vector (15 downto 0); 
-          G : in    std_logic; 
-          Q : out   std_logic_vector (15 downto 0));
-end LD16_MXILINX_sch;
-
-architecture BEHAVIORAL of LD16_MXILINX_sch is
-   attribute BOX_TYPE   : string ;
-   component LD
-      generic( INIT : bit :=  '0');
-      port ( D : in    std_logic; 
-             G : in    std_logic; 
-             Q : out   std_logic);
-   end component;
-   attribute BOX_TYPE of LD : component is "BLACK_BOX";
-   
-begin
-   Q0 : LD
-      port map (D=>D(0),
-                G=>G,
-                Q=>Q(0));
-   
-   Q1 : LD
-      port map (D=>D(1),
-                G=>G,
-                Q=>Q(1));
-   
-   Q2 : LD
-      port map (D=>D(2),
-                G=>G,
-                Q=>Q(2));
-   
-   Q3 : LD
-      port map (D=>D(3),
-                G=>G,
-                Q=>Q(3));
-   
-   Q4 : LD
-      port map (D=>D(4),
-                G=>G,
-                Q=>Q(4));
-   
-   Q5 : LD
-      port map (D=>D(5),
-                G=>G,
-                Q=>Q(5));
-   
-   Q6 : LD
-      port map (D=>D(6),
-                G=>G,
-                Q=>Q(6));
-   
-   Q7 : LD
-      port map (D=>D(7),
-                G=>G,
-                Q=>Q(7));
-   
-   Q8 : LD
-      port map (D=>D(8),
-                G=>G,
-                Q=>Q(8));
-   
-   Q9 : LD
-      port map (D=>D(9),
-                G=>G,
-                Q=>Q(9));
-   
-   Q10 : LD
-      port map (D=>D(10),
-                G=>G,
-                Q=>Q(10));
-   
-   Q11 : LD
-      port map (D=>D(11),
-                G=>G,
-                Q=>Q(11));
-   
-   Q12 : LD
-      port map (D=>D(12),
-                G=>G,
-                Q=>Q(12));
-   
-   Q13 : LD
-      port map (D=>D(13),
-                G=>G,
-                Q=>Q(13));
-   
-   Q14 : LD
-      port map (D=>D(14),
-                G=>G,
-                Q=>Q(14));
-   
-   Q15 : LD
-      port map (D=>D(15),
-                G=>G,
-                Q=>Q(15));
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
-entity D4_16E_MXILINX_sch is
-   port ( A0  : in    std_logic; 
-          A1  : in    std_logic; 
-          A2  : in    std_logic; 
-          A3  : in    std_logic; 
-          E   : in    std_logic; 
-          D0  : out   std_logic; 
-          D1  : out   std_logic; 
-          D2  : out   std_logic; 
-          D3  : out   std_logic; 
-          D4  : out   std_logic; 
-          D5  : out   std_logic; 
-          D6  : out   std_logic; 
-          D7  : out   std_logic; 
-          D8  : out   std_logic; 
-          D9  : out   std_logic; 
-          D10 : out   std_logic; 
-          D11 : out   std_logic; 
-          D12 : out   std_logic; 
-          D13 : out   std_logic; 
-          D14 : out   std_logic; 
-          D15 : out   std_logic);
-end D4_16E_MXILINX_sch;
-
-architecture BEHAVIORAL of D4_16E_MXILINX_sch is
-   attribute BOX_TYPE   : string ;
-   component AND5B3
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             I3 : in    std_logic; 
-             I4 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND5B3 : component is "BLACK_BOX";
-   
-   component AND5B2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             I3 : in    std_logic; 
-             I4 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND5B2 : component is "BLACK_BOX";
-   
-   component AND5B1
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             I3 : in    std_logic; 
-             I4 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND5B1 : component is "BLACK_BOX";
-   
-   component AND5
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             I3 : in    std_logic; 
-             I4 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND5 : component is "BLACK_BOX";
-   
-   component AND5B4
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             I3 : in    std_logic; 
-             I4 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND5B4 : component is "BLACK_BOX";
-   
-begin
-   I_36_53 : AND5B3
-      port map (I0=>A0,
-                I1=>A1,
-                I2=>A2,
-                I3=>A3,
-                I4=>E,
-                O=>D8);
-   
-   I_36_54 : AND5B2
-      port map (I0=>A1,
-                I1=>A2,
-                I2=>E,
-                I3=>A3,
-                I4=>A0,
-                O=>D9);
-   
-   I_36_55 : AND5B2
-      port map (I0=>A0,
-                I1=>A2,
-                I2=>E,
-                I3=>A3,
-                I4=>A1,
-                O=>D10);
-   
-   I_36_56 : AND5B1
-      port map (I0=>A2,
-                I1=>A0,
-                I2=>A1,
-                I3=>A3,
-                I4=>E,
-                O=>D11);
-   
-   I_36_57 : AND5B2
-      port map (I0=>A0,
-                I1=>A1,
-                I2=>E,
-                I3=>A3,
-                I4=>A2,
-                O=>D12);
-   
-   I_36_58 : AND5B1
-      port map (I0=>A1,
-                I1=>A0,
-                I2=>A2,
-                I3=>A3,
-                I4=>E,
-                O=>D13);
-   
-   I_36_59 : AND5B1
-      port map (I0=>A0,
-                I1=>A1,
-                I2=>A2,
-                I3=>A3,
-                I4=>E,
-                O=>D14);
-   
-   I_36_60 : AND5
-      port map (I0=>A3,
-                I1=>A2,
-                I2=>A1,
-                I3=>A0,
-                I4=>E,
-                O=>D15);
-   
-   I_36_61 : AND5B2
-      port map (I0=>A3,
-                I1=>A0,
-                I2=>E,
-                I3=>A2,
-                I4=>A1,
-                O=>D6);
-   
-   I_36_62 : AND5B1
-      port map (I0=>A3,
-                I1=>A2,
-                I2=>A1,
-                I3=>A0,
-                I4=>E,
-                O=>D7);
-   
-   I_36_63 : AND5B2
-      port map (I0=>A3,
-                I1=>A1,
-                I2=>E,
-                I3=>A2,
-                I4=>A0,
-                O=>D5);
-   
-   I_36_64 : AND5B3
-      port map (I0=>A0,
-                I1=>A1,
-                I2=>A3,
-                I3=>A2,
-                I4=>E,
-                O=>D4);
-   
-   I_36_65 : AND5B2
-      port map (I0=>A2,
-                I1=>A3,
-                I2=>E,
-                I3=>A0,
-                I4=>A1,
-                O=>D3);
-   
-   I_36_66 : AND5B3
-      port map (I0=>A0,
-                I1=>A3,
-                I2=>A2,
-                I3=>A1,
-                I4=>E,
-                O=>D2);
-   
-   I_36_67 : AND5B3
-      port map (I0=>A1,
-                I1=>A2,
-                I2=>A3,
-                I3=>A0,
-                I4=>E,
-                O=>D1);
-   
-   I_36_68 : AND5B4
-      port map (I0=>A3,
-                I1=>A2,
-                I2=>A1,
-                I3=>A0,
-                I4=>E,
-                O=>D0);
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
 entity sch is
    port ( COUNT_EN     : in    std_logic; 
           DDS_FREQ     : in    std_logic; 
@@ -2044,21 +1990,17 @@ architecture BEHAVIORAL of sch is
    attribute BOX_TYPE   : string ;
    signal Block_IRQ_afrer_timeout                    : std_logic;
    signal Block_timer_after_overload_until_new_cycle : std_logic;
-   signal CFG_N_1                                    : std_logic_vector (15 
-         downto 0);
-   signal CFG_N_2                                    : std_logic_vector (15 
+   signal CFG_N                                      : std_logic_vector (15 
          downto 0);
    signal dds_timer_OL                               : std_logic;
    signal Delay_plus_100ns                           : std_logic;
    signal Delay_0_to_100ns                           : std_logic;
-   signal Enable_sig                                 : std_logic;
    signal Hold_IRQ_after_LDAC                        : std_logic;
    signal Hold_LDAC_100ns_to_200ns                   : std_logic;
    signal Output_enable                              : std_logic;
    signal XLXN_110                                   : std_logic;
    signal XLXN_111                                   : std_logic;
    signal XLXN_168                                   : std_logic;
-   signal XLXN_169                                   : std_logic;
    signal XLXN_171                                   : std_logic;
    signal XLXN_175                                   : std_logic;
    signal XLXN_176                                   : std_logic;
@@ -2069,12 +2011,11 @@ architecture BEHAVIORAL of sch is
    signal XLXN_228                                   : std_logic;
    signal XLXN_239                                   : std_logic;
    signal XLXN_243                                   : std_logic;
-   component LD16_MXILINX_sch
-      port ( D : in    std_logic_vector (15 downto 0); 
-             G : in    std_logic; 
-             Q : out   std_logic_vector (15 downto 0));
-   end component;
-   
+   signal XLXN_245                                   : std_logic;
+   signal XLXN_246                                   : std_logic;
+   signal XLXN_247                                   : std_logic;
+   signal XLXN_248                                   : std_logic;
+   signal XLXN_260                                   : std_logic;
    component D4_16E_MXILINX_sch
       port ( A0  : in    std_logic; 
              A1  : in    std_logic; 
@@ -2098,19 +2039,6 @@ architecture BEHAVIORAL of sch is
              D8  : out   std_logic; 
              D9  : out   std_logic);
    end component;
-   
-   component LD
-      generic( INIT : bit :=  '0');
-      port ( D : in    std_logic; 
-             G : in    std_logic; 
-             Q : out   std_logic);
-   end component;
-   attribute BOX_TYPE of LD : component is "BLACK_BOX";
-   
-   component GND
-      port ( G : out   std_logic);
-   end component;
-   attribute BOX_TYPE of GND : component is "BLACK_BOX";
    
    component CB16X1_MXILINX_sch
       port ( C    : in    std_logic; 
@@ -2143,6 +2071,11 @@ architecture BEHAVIORAL of sch is
       port ( P : out   std_logic);
    end component;
    attribute BOX_TYPE of VCC : component is "BLACK_BOX";
+   
+   component GND
+      port ( G : out   std_logic);
+   end component;
+   attribute BOX_TYPE of GND : component is "BLACK_BOX";
    
    component D2_4E_MXILINX_sch
       port ( A0 : in    std_logic; 
@@ -2185,54 +2118,53 @@ architecture BEHAVIORAL of sch is
    end component;
    attribute BOX_TYPE of AND3 : component is "BLACK_BOX";
    
-   attribute HU_SET of CFG_L : label is "CFG_L_28";
-   attribute HU_SET of XLXI_1 : label is "XLXI_1_27";
-   attribute HU_SET of XLXI_12 : label is "XLXI_12_29";
+   component LD4_MXILINX_sch
+      port ( D0 : in    std_logic; 
+             D1 : in    std_logic; 
+             D2 : in    std_logic; 
+             D3 : in    std_logic; 
+             G  : in    std_logic; 
+             Q0 : out   std_logic; 
+             Q1 : out   std_logic; 
+             Q2 : out   std_logic; 
+             Q3 : out   std_logic);
+   end component;
+   
+   attribute HU_SET of XLXI_1 : label is "XLXI_1_29";
+   attribute HU_SET of XLXI_12 : label is "XLXI_12_27";
    attribute HU_SET of XLXI_61 : label is "XLXI_61_31";
    attribute HU_SET of XLXI_62 : label is "XLXI_62_30";
+   attribute HU_SET of XLXI_94 : label is "XLXI_94_28";
 begin
-   CFG_L : LD16_MXILINX_sch
-      port map (D(15 downto 0)=>CFG_N_1(15 downto 0),
-                G=>COUNT_EN,
-                Q(15 downto 0)=>CFG_N_2(15 downto 0));
-   
    XLXI_1 : D4_16E_MXILINX_sch
-      port map (A0=>Freq_control(0),
-                A1=>Freq_control(1),
-                A2=>Freq_control(2),
-                A3=>Freq_control(3),
-                E=>COUNT_EN,
-                D0=>Enable_sig,
-                D1=>CFG_N_1(1),
-                D2=>CFG_N_1(2),
-                D3=>CFG_N_1(3),
-                D4=>CFG_N_1(4),
-                D5=>CFG_N_1(5),
-                D6=>CFG_N_1(6),
-                D7=>CFG_N_1(7),
-                D8=>CFG_N_1(8),
-                D9=>CFG_N_1(9),
-                D10=>CFG_N_1(10),
-                D11=>CFG_N_1(11),
-                D12=>CFG_N_1(12),
-                D13=>CFG_N_1(13),
-                D14=>CFG_N_1(14),
-                D15=>CFG_N_1(15));
-   
-   XLXI_3 : LD
-      port map (D=>Enable_sig,
-                G=>COUNT_EN,
-                Q=>XLXN_169);
-   
-   XLXI_10 : GND
-      port map (G=>CFG_N_1(0));
+      port map (A0=>XLXN_245,
+                A1=>XLXN_246,
+                A2=>XLXN_247,
+                A3=>XLXN_248,
+                E=>XLXN_260,
+                D0=>CFG_N(0),
+                D1=>CFG_N(1),
+                D2=>CFG_N(2),
+                D3=>CFG_N(3),
+                D4=>CFG_N(4),
+                D5=>CFG_N(5),
+                D6=>CFG_N(6),
+                D7=>CFG_N(7),
+                D8=>CFG_N(8),
+                D9=>CFG_N(9),
+                D10=>CFG_N(10),
+                D11=>CFG_N(11),
+                D12=>CFG_N(12),
+                D13=>CFG_N(13),
+                D14=>CFG_N(14),
+                D15=>CFG_N(15));
    
    XLXI_12 : CB16X1_MXILINX_sch
       port map (C=>XLXN_226,
                 CED=>XLXN_171,
                 CEU=>XLXN_168,
                 CLR=>XLXN_168,
-                D(15 downto 0)=>CFG_N_2(15 downto 0),
+                D(15 downto 0)=>CFG_N(15 downto 0),
                 L=>dds_timer_OL,
                 CEOD=>open,
                 CEOU=>open,
@@ -2256,7 +2188,7 @@ begin
       port map (G=>XLXN_168);
    
    XLXI_57 : INV
-      port map (I=>XLXN_169,
+      port map (I=>CFG_N(0),
                 O=>Output_enable);
    
    XLXI_61 : D2_4E_MXILINX_sch
@@ -2320,6 +2252,20 @@ begin
                 I1=>Hold_IRQ_after_LDAC,
                 I2=>Output_enable,
                 O=>CPU_IRQ);
+   
+   XLXI_94 : LD4_MXILINX_sch
+      port map (D0=>Freq_control(0),
+                D1=>Freq_control(1),
+                D2=>Freq_control(2),
+                D3=>Freq_control(3),
+                G=>COUNT_EN,
+                Q0=>XLXN_245,
+                Q1=>XLXN_246,
+                Q2=>XLXN_247,
+                Q3=>XLXN_248);
+   
+   XLXI_97 : VCC
+      port map (P=>XLXN_260);
    
 end BEHAVIORAL;
 

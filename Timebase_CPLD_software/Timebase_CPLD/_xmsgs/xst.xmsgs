@@ -5,19 +5,19 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2230</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEOD</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2162</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEOD</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2230</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEOU</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2162</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEOU</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2230</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2162</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Q</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2230</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TCU</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2162</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TCU</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB16X1_MXILINX_sch</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2271</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_sch</arg>&apos;.
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">//vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf</arg>&quot; line <arg fmt="%d" index="2">2203</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB2CE_MXILINX_sch</arg>&apos;.
 </msg>
 
 </messages>

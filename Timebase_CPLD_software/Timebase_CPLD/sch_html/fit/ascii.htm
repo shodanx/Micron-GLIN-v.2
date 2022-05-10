@@ -3,7 +3,7 @@
  
 cpldfit:  version P.20131013                        Xilinx Inc.
                                   Fitter Report
-Design Name: sch                                 Date:  5- 9-2022,  3:30PM
+Design Name: sch                                 Date:  5- 9-2022,  5:39PM
 Device Used: XC9572XL-10-VQ44
 Fitting Status: Successful
 
@@ -11,18 +11,18 @@ Fitting Status: Successful
 
 Macrocells     Product Terms    Function Block   Registers      Pins           
 Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
-56 /72  ( 78%) 132 /360  ( 37%) 79 /216 ( 37%)   37 /72  ( 51%) 9  /34  ( 26%)
+27 /72  ( 37%) 118 /360  ( 33%) 50 /216 ( 23%)   24 /72  ( 33%) 9  /34  ( 26%)
 
 ** Function Block Resources **
 
 Function    Mcells      FB Inps     Pterms      IO          
 Block       Used/Tot    Used/Tot    Used/Tot    Used/Tot    
-FB1          18/18*      27/54       44/90       2/ 9
-FB2          18/18*      17/54       36/90       0/ 9
-FB3           7/18        8/54       13/90       0/ 9
-FB4          13/18       27/54       39/90       7/ 7*
+FB1           3/18       14/54       17/90       2/ 9
+FB2           9/18       14/54       45/90       0/ 9
+FB3           6/18        8/54       12/90       0/ 9
+FB4           9/18       14/54       44/90       7/ 7*
              -----       -----       -----      -----    
-             56/72       79/216     132/360      9/34 
+             27/72       50/216     118/360      9/34 
 
 * - Resource is exhausted
 
@@ -48,7 +48,7 @@ GSR           :    0           0    |
 
 ** Power Data **
 
-There are 56 macrocells in high performance mode (MCHP).
+There are 27 macrocells in high performance mode (MCHP).
 There are 0 macrocells in low power mode (MCLP).
 End of Mapped Resource Summary
 **************************  Errors and Warnings  ***************************
@@ -65,90 +65,56 @@ INFO:Cpld - Inferring BUFG constraint for signal 'IN_10MHz' based upon the LOC
    in your design. Note that for certain device families the output of a BUFG
    constraint can not drive a gated clock, and the BUFG constraint will be
    ignored.
-WARNING:Cpld:828 - Signal 'CFG_N_2<0>.SETF' has been minimized to 'GND'.
-     The signal is removed.
 *************************  Summary of Mapped Logic  ************************
 
 ** 2 Outputs **
 
-Signal                              Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
-Name                                Pts   Inps          No.  Type    Use     Mode Rate State
-CPU_IRQ                             1     3     FB4_14  23   I/O     O       STD  FAST 
-DAC_LDAC                            1     4     FB4_15  27   I/O     O       STD  FAST 
+Signal                        Total Total Loc     Pin  Pin     Pin     Pwr  Slew Reg Init
+Name                          Pts   Inps          No.  Type    Use     Mode Rate State
+CPU_IRQ                       3     6     FB4_14  23   I/O     O       STD  FAST 
+DAC_LDAC                      4     7     FB4_15  27   I/O     O       STD  FAST 
 
-** 54 Buried Nodes **
+** 25 Buried Nodes **
 
-Signal                              Total Total Loc     Pwr  Reg Init
-Name                                Pts   Inps          Mode State
-$OpTx$INV$50__$INT                  2     5     FB1_1   STD  
-$OpTx$INV$49__$INT                  2     5     FB1_2   STD  
-$OpTx$INV$48__$INT                  2     5     FB1_3   STD  
-$OpTx$INV$47__$INT                  2     5     FB1_4   STD  
-$OpTx$INV$42__$INT                  2     5     FB1_5   STD  
-$OpTx$INV$41__$INT                  2     5     FB1_6   STD  
-XLXI_12/Q<9>                        3     5     FB1_7   STD  RESET
-XLXI_12/Q<8>                        3     4     FB1_8   STD  RESET
-XLXI_12/Q<15>                       3     11    FB1_9   STD  RESET
-XLXI_12/Q<14>                       3     10    FB1_10  STD  RESET
-XLXI_12/Q<13>                       3     9     FB1_11  STD  RESET
-XLXI_12/Q<11>                       3     7     FB1_12  STD  RESET
-XLXI_12/Q<10>                       3     6     FB1_13  STD  RESET
-XLXI_12/CB8/XLXN_14                 3     18    FB1_14  STD  RESET
-CFG_N_2<13>                         2     6     FB1_15  STD  RESET
-CFG_N_2<12>                         2     6     FB1_16  STD  RESET
-CFG_N_2<11>                         2     6     FB1_17  STD  RESET
-CFG_N_2<10>                         2     6     FB1_18  STD  RESET
-$OpTx$INV$56__$INT                  2     5     FB2_1   STD  
-$OpTx$INV$55__$INT                  2     5     FB2_2   STD  
-$OpTx$INV$54__$INT                  2     5     FB2_3   STD  
-$OpTx$INV$53__$INT                  2     5     FB2_4   STD  
-$OpTx$INV$52__$INT                  2     5     FB2_5   STD  
-$OpTx$INV$51__$INT                  2     5     FB2_6   STD  
-XLXN_169                            2     6     FB2_7   STD  RESET
-CFG_N_2<9>                          2     6     FB2_8   STD  RESET
-CFG_N_2<8>                          2     6     FB2_9   STD  RESET
-CFG_N_2<7>                          2     6     FB2_10  STD  RESET
-CFG_N_2<6>                          2     6     FB2_11  STD  RESET
-CFG_N_2<5>                          2     6     FB2_12  STD  RESET
-CFG_N_2<4>                          2     6     FB2_13  STD  RESET
-CFG_N_2<3>                          2     6     FB2_14  STD  RESET
-CFG_N_2<2>                          2     6     FB2_15  STD  RESET
-CFG_N_2<1>                          2     6     FB2_16  STD  RESET
-CFG_N_2<15>                         2     6     FB2_17  STD  RESET
-CFG_N_2<14>                         2     6     FB2_18  STD  RESET
-XLXN_176                            2     3     FB3_12  STD  RESET
-XLXN_175                            2     3     FB3_13  STD  RESET
-CFG_N_2<15>/CFG_N_2<15>_RSTF__$INT  2     5     FB3_14  STD  
-CFG_N_2<14>/CFG_N_2<14>_RSTF__$INT  2     5     FB3_15  STD  
-
-Signal                              Total Total Loc     Pwr  Reg Init
-Name                                Pts   Inps          Mode State
-CFG_N_2<13>/CFG_N_2<13>_RSTF__$INT  2     5     FB3_16  STD  
-CFG_N_2<12>/CFG_N_2<12>_RSTF__$INT  2     5     FB3_17  STD  
-CFG_N_2<0>                          1     1     FB3_18  STD  RESET
-XLXN_176/XLXN_176_RSTF__$INT        1     2     FB4_6   STD  
-XLXI_12/Q<0>                        2     4     FB4_7   STD  RESET
-XLXI_12/Q<12>                       3     8     FB4_8   STD  RESET
-XLXI_12/CB0/XLXN_14                 3     18    FB4_9   STD  RESET
-XLXI_12/Q<7>                        4     11    FB4_10  STD  RESET
-XLXI_12/Q<6>                        4     10    FB4_11  STD  RESET
-XLXI_12/Q<5>                        4     9     FB4_12  STD  RESET
-XLXI_12/Q<4>                        4     8     FB4_13  STD  RESET
-XLXI_12/Q<3>                        4     7     FB4_16  STD  RESET
-XLXI_12/Q<2>                        4     6     FB4_17  STD  RESET
-XLXI_12/Q<1>                        4     5     FB4_18  STD  RESET
+Signal                        Total Total Loc     Pwr  Reg Init
+Name                          Pts   Inps          Mode State
+XLXI_12/CB0/XLXN_14           3     11    FB1_16  STD  RESET
+XLXI_12/Q<7>                  7     14    FB1_17  STD  RESET
+XLXI_12/Q<6>                  7     13    FB1_18  STD  RESET
+XLXI_12/Q<11>                 6     10    FB2_1   STD  RESET
+XLXI_12/Q<8>                  3     7     FB2_10  STD  RESET
+XLXI_12/CB8/XLXN_14           3     11    FB2_11  STD  RESET
+XLXI_12/Q<9>                  4     8     FB2_12  STD  RESET
+XLXI_12/Q<10>                 5     9     FB2_13  STD  RESET
+XLXI_12/Q<15>                 6     14    FB2_15  STD  RESET
+XLXI_12/Q<14>                 6     13    FB2_16  STD  RESET
+XLXI_12/Q<13>                 6     12    FB2_17  STD  RESET
+XLXI_12/Q<12>                 6     11    FB2_18  STD  RESET
+XLXN_176                      2     3     FB3_13  STD  RESET
+XLXN_175                      2     3     FB3_14  STD  RESET
+XLXN_248                      2     2     FB3_15  STD  RESET
+XLXN_247                      2     2     FB3_16  STD  RESET
+XLXN_246                      2     2     FB3_17  STD  RESET
+XLXN_245                      2     2     FB3_18  STD  RESET
+XLXN_176/XLXN_176_RSTF__$INT  1     2     FB4_1   STD  
+XLXI_12/Q<0>                  3     7     FB4_11  STD  RESET
+XLXI_12/Q<1>                  5     8     FB4_12  STD  RESET
+XLXI_12/Q<5>                  7     12    FB4_13  STD  RESET
+XLXI_12/Q<4>                  7     11    FB4_16  STD  RESET
+XLXI_12/Q<3>                  7     10    FB4_17  STD  RESET
+XLXI_12/Q<2>                  7     9     FB4_18  STD  RESET
 
 ** 7 Inputs **
 
-Signal                              Loc     Pin  Pin     Pin     
-Name                                        No.  Type    Use     
-IN_10MHz                            FB1_9   43   GCK/I/O GCK
-DDS_FREQ                            FB1_14  1    GCK/I/O GCK
-Freq_control<3>                     FB4_2   19   I/O     I
-Freq_control<2>                     FB4_5   20   I/O     I
-Freq_control<1>                     FB4_8   21   I/O     I
-Freq_control<0>                     FB4_11  22   I/O     I
-COUNT_EN                            FB4_17  28   I/O     I
+Signal                        Loc     Pin  Pin     Pin     
+Name                                  No.  Type    Use     
+IN_10MHz                      FB1_9   43   GCK/I/O GCK
+DDS_FREQ                      FB1_14  1    GCK/I/O GCK
+Freq_control<3>               FB4_2   19   I/O     I
+Freq_control<2>               FB4_5   20   I/O     I
+Freq_control<1>               FB4_8   21   I/O     I
+Freq_control<0>               FB4_11  22   I/O     I
+COUNT_EN                      FB4_17  28   I/O     I
 
 Legend:
 Pin No. - ~ - User Assigned
@@ -166,114 +132,85 @@ Pin Type/Use - I  - Input             GCK - Global Clock
 X            - Signal used as input to the macrocell logic.
 Pin No.      - ~  - User Assigned
 *********************************** FB1  ***********************************
-Number of function block inputs used/remaining:               27/27
-Number of signals used by logic mapping into function block:  27
+Number of function block inputs used/remaining:               14/40
+Number of signals used by logic mapping into function block:  14
 Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
 Name                Pt      Pt    Pt  Pt               #    Type    Use
-$OpTx$INV$50__$INT    2       0     0   3     FB1_1         (b)     (b)
-$OpTx$INV$49__$INT    2       0     0   3     FB1_2   39    I/O     (b)
-$OpTx$INV$48__$INT    2       0     0   3     FB1_3         (b)     (b)
-$OpTx$INV$47__$INT    2       0     0   3     FB1_4         (b)     (b)
-$OpTx$INV$42__$INT    2       0     0   3     FB1_5   40    I/O     (b)
-$OpTx$INV$41__$INT    2       0     0   3     FB1_6   41    I/O     (b)
-XLXI_12/Q<9>          3       0     0   2     FB1_7         (b)     (b)
-XLXI_12/Q<8>          3       0     0   2     FB1_8   42    I/O     (b)
-XLXI_12/Q<15>         3       0     0   2     FB1_9   43    GCK/I/O GCK
-XLXI_12/Q<14>         3       0     0   2     FB1_10        (b)     (b)
-XLXI_12/Q<13>         3       0     0   2     FB1_11  44    GCK/I/O (b)
-XLXI_12/Q<11>         3       0     0   2     FB1_12        (b)     (b)
-XLXI_12/Q<10>         3       0     0   2     FB1_13        (b)     (b)
-XLXI_12/CB8/XLXN_14   3       0     0   2     FB1_14  1     GCK/I/O GCK
-CFG_N_2<13>           2       0     0   3     FB1_15  2     I/O     (b)
-CFG_N_2<12>           2       0     0   3     FB1_16        (b)     (b)
-CFG_N_2<11>           2       0     0   3     FB1_17  3     I/O     (b)
-CFG_N_2<10>           2       0     0   3     FB1_18        (b)     (b)
+(unused)              0       0   /\2   3     FB1_1         (b)     (b)
+(unused)              0       0     0   5     FB1_2   39    I/O     
+(unused)              0       0     0   5     FB1_3         (b)     
+(unused)              0       0     0   5     FB1_4         (b)     
+(unused)              0       0     0   5     FB1_5   40    I/O     
+(unused)              0       0     0   5     FB1_6   41    I/O     
+(unused)              0       0     0   5     FB1_7         (b)     
+(unused)              0       0     0   5     FB1_8   42    I/O     
+(unused)              0       0     0   5     FB1_9   43    GCK/I/O GCK
+(unused)              0       0     0   5     FB1_10        (b)     
+(unused)              0       0     0   5     FB1_11  44    GCK/I/O 
+(unused)              0       0     0   5     FB1_12        (b)     
+(unused)              0       0     0   5     FB1_13        (b)     
+(unused)              0       0     0   5     FB1_14  1     GCK/I/O GCK
+(unused)              0       0     0   5     FB1_15  2     I/O     
+XLXI_12/CB0/XLXN_14   3       0   \/2   0     FB1_16        (b)     (b)
+XLXI_12/Q<7>          7       2<-   0   0     FB1_17  3     I/O     (b)
+XLXI_12/Q<6>          7       2<-   0   0     FB1_18        (b)     (b)
 
 Signals Used by Logic in Function Block
-  1: $OpTx$INV$41__$INT                  10: CFG_N_2<15>          19: XLXI_12/CB8/XLXN_14 
-  2: $OpTx$INV$42__$INT                  11: CFG_N_2<8>           20: XLXI_12/Q<10> 
-  3: CFG_N_2<10>                         12: CFG_N_2<9>           21: XLXI_12/Q<11> 
-  4: CFG_N_2<11>                         13: COUNT_EN             22: XLXI_12/Q<12> 
-  5: CFG_N_2<12>                         14: Freq_control<0>      23: XLXI_12/Q<13> 
-  6: CFG_N_2<12>/CFG_N_2<12>_RSTF__$INT  15: Freq_control<1>      24: XLXI_12/Q<14> 
-  7: CFG_N_2<13>                         16: Freq_control<2>      25: XLXI_12/Q<15> 
-  8: CFG_N_2<13>/CFG_N_2<13>_RSTF__$INT  17: Freq_control<3>      26: XLXI_12/Q<8> 
-  9: CFG_N_2<14>                         18: XLXI_12/CB0/XLXN_14  27: XLXI_12/Q<9> 
+  1: XLXI_12/CB0/XLXN_14   6: XLXI_12/Q<3>      11: XLXN_245 
+  2: XLXI_12/CB8/XLXN_14   7: XLXI_12/Q<4>      12: XLXN_246 
+  3: XLXI_12/Q<0>          8: XLXI_12/Q<5>      13: XLXN_247 
+  4: XLXI_12/Q<1>          9: XLXI_12/Q<6>      14: XLXN_248 
+  5: XLXI_12/Q<2>         10: XLXI_12/Q<7>     
 
 Signal                        1         2         3         4 FB
 Name                0----+----0----+----0----+----0----+----0 Inputs
-$OpTx$INV$50__$INT   ............XXXXX....................... 5
-$OpTx$INV$49__$INT   ............XXXXX....................... 5
-$OpTx$INV$48__$INT   ............XXXXX....................... 5
-$OpTx$INV$47__$INT   ............XXXXX....................... 5
-$OpTx$INV$42__$INT   ............XXXXX....................... 5
-$OpTx$INV$41__$INT   ............XXXXX....................... 5
-XLXI_12/Q<9>         ...........X.....XX......XX............. 5
-XLXI_12/Q<8>         ..........X......XX......X.............. 4
-XLXI_12/Q<15>        .........X.......XXXXXXXXXX............. 11
-XLXI_12/Q<14>        ........X........XXXXXXX.XX............. 10
-XLXI_12/Q<13>        ......X..........XXXXXX..XX............. 9
-XLXI_12/Q<11>        ...X.............XXXX....XX............. 7
-XLXI_12/Q<10>        ..X..............XXX.....XX............. 6
-XLXI_12/CB8/XLXN_14  ..XXX.X.XXXX.....XXXXXXXXXX............. 18
-CFG_N_2<13>          .......X....XXXXX....................... 6
-CFG_N_2<12>          .....X......XXXXX....................... 6
-CFG_N_2<11>          .X..........XXXXX....................... 6
-CFG_N_2<10>          X...........XXXXX....................... 6
+XLXI_12/CB0/XLXN_14  XXXXXXXXXX...X.......................... 11
+XLXI_12/Q<7>         XXXXXXXXXXXXXX.......................... 14
+XLXI_12/Q<6>         XXXXXXXXX.XXXX.......................... 13
                     0----+----1----+----2----+----3----+----4
                               0         0         0         0
 *********************************** FB2  ***********************************
-Number of function block inputs used/remaining:               17/37
-Number of signals used by logic mapping into function block:  17
+Number of function block inputs used/remaining:               14/40
+Number of signals used by logic mapping into function block:  14
 Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
 Name                Pt      Pt    Pt  Pt               #    Type    Use
-$OpTx$INV$56__$INT    2       0     0   3     FB2_1         (b)     (b)
-$OpTx$INV$55__$INT    2       0     0   3     FB2_2   29    I/O     (b)
-$OpTx$INV$54__$INT    2       0     0   3     FB2_3         (b)     (b)
-$OpTx$INV$53__$INT    2       0     0   3     FB2_4         (b)     (b)
-$OpTx$INV$52__$INT    2       0     0   3     FB2_5   30    I/O     (b)
-$OpTx$INV$51__$INT    2       0     0   3     FB2_6   31    I/O     (b)
-XLXN_169              2       0     0   3     FB2_7         (b)     (b)
-CFG_N_2<9>            2       0     0   3     FB2_8   32    I/O     (b)
-CFG_N_2<8>            2       0     0   3     FB2_9   33    GSR/I/O (b)
-CFG_N_2<7>            2       0     0   3     FB2_10        (b)     (b)
-CFG_N_2<6>            2       0     0   3     FB2_11  34    GTS/I/O (b)
-CFG_N_2<5>            2       0     0   3     FB2_12        (b)     (b)
-CFG_N_2<4>            2       0     0   3     FB2_13        (b)     (b)
-CFG_N_2<3>            2       0     0   3     FB2_14  36    GTS/I/O (b)
-CFG_N_2<2>            2       0     0   3     FB2_15  37    I/O     (b)
-CFG_N_2<1>            2       0     0   3     FB2_16        (b)     (b)
-CFG_N_2<15>           2       0     0   3     FB2_17  38    I/O     (b)
-CFG_N_2<14>           2       0     0   3     FB2_18        (b)     (b)
+XLXI_12/Q<11>         6       3<- /\2   0     FB2_1         (b)     (b)
+(unused)              0       0   /\3   2     FB2_2   29    I/O     (b)
+(unused)              0       0     0   5     FB2_3         (b)     
+(unused)              0       0     0   5     FB2_4         (b)     
+(unused)              0       0     0   5     FB2_5   30    I/O     
+(unused)              0       0     0   5     FB2_6   31    I/O     
+(unused)              0       0     0   5     FB2_7         (b)     
+(unused)              0       0     0   5     FB2_8   32    I/O     
+(unused)              0       0     0   5     FB2_9   33    GSR/I/O 
+XLXI_12/Q<8>          3       0     0   2     FB2_10        (b)     (b)
+XLXI_12/CB8/XLXN_14   3       0     0   2     FB2_11  34    GTS/I/O (b)
+XLXI_12/Q<9>          4       0     0   1     FB2_12        (b)     (b)
+XLXI_12/Q<10>         5       0     0   0     FB2_13        (b)     (b)
+(unused)              0       0   \/2   3     FB2_14  36    GTS/I/O (b)
+XLXI_12/Q<15>         6       2<- \/1   0     FB2_15  37    I/O     (b)
+XLXI_12/Q<14>         6       1<-   0   0     FB2_16        (b)     (b)
+XLXI_12/Q<13>         6       1<-   0   0     FB2_17  38    I/O     (b)
+XLXI_12/Q<12>         6       2<- /\1   0     FB2_18        (b)     (b)
 
 Signals Used by Logic in Function Block
-  1: $OpTx$INV$47__$INT   7: $OpTx$INV$53__$INT                  13: COUNT_EN 
-  2: $OpTx$INV$48__$INT   8: $OpTx$INV$54__$INT                  14: Freq_control<0> 
-  3: $OpTx$INV$49__$INT   9: $OpTx$INV$55__$INT                  15: Freq_control<1> 
-  4: $OpTx$INV$50__$INT  10: $OpTx$INV$56__$INT                  16: Freq_control<2> 
-  5: $OpTx$INV$51__$INT  11: CFG_N_2<14>/CFG_N_2<14>_RSTF__$INT  17: Freq_control<3> 
-  6: $OpTx$INV$52__$INT  12: CFG_N_2<15>/CFG_N_2<15>_RSTF__$INT 
+  1: XLXI_12/CB0/XLXN_14   6: XLXI_12/Q<13>     11: XLXN_245 
+  2: XLXI_12/CB8/XLXN_14   7: XLXI_12/Q<14>     12: XLXN_246 
+  3: XLXI_12/Q<10>         8: XLXI_12/Q<15>     13: XLXN_247 
+  4: XLXI_12/Q<11>         9: XLXI_12/Q<8>      14: XLXN_248 
+  5: XLXI_12/Q<12>        10: XLXI_12/Q<9>     
 
 Signal                        1         2         3         4 FB
 Name                0----+----0----+----0----+----0----+----0 Inputs
-$OpTx$INV$56__$INT   ............XXXXX....................... 5
-$OpTx$INV$55__$INT   ............XXXXX....................... 5
-$OpTx$INV$54__$INT   ............XXXXX....................... 5
-$OpTx$INV$53__$INT   ............XXXXX....................... 5
-$OpTx$INV$52__$INT   ............XXXXX....................... 5
-$OpTx$INV$51__$INT   ............XXXXX....................... 5
-XLXN_169             .........X..XXXXX....................... 6
-CFG_N_2<9>           ........X...XXXXX....................... 6
-CFG_N_2<8>           .......X....XXXXX....................... 6
-CFG_N_2<7>           ......X.....XXXXX....................... 6
-CFG_N_2<6>           .....X......XXXXX....................... 6
-CFG_N_2<5>           ....X.......XXXXX....................... 6
-CFG_N_2<4>           ...X........XXXXX....................... 6
-CFG_N_2<3>           ..X.........XXXXX....................... 6
-CFG_N_2<2>           .X..........XXXXX....................... 6
-CFG_N_2<1>           X...........XXXXX....................... 6
-CFG_N_2<15>          ...........XXXXXX....................... 6
-CFG_N_2<14>          ..........X.XXXXX....................... 6
+XLXI_12/Q<11>        XXXX....XXXXXX.......................... 10
+XLXI_12/Q<8>         XX......X.XXXX.......................... 7
+XLXI_12/CB8/XLXN_14  XXXXXXXXXX...X.......................... 11
+XLXI_12/Q<9>         XX......XXXXXX.......................... 8
+XLXI_12/Q<10>        XXX.....XXXXXX.......................... 9
+XLXI_12/Q<15>        XXXXXXXXXXXXXX.......................... 14
+XLXI_12/Q<14>        XXXXXXX.XXXXXX.......................... 13
+XLXI_12/Q<13>        XXXXXX..XXXXXX.......................... 12
+XLXI_12/Q<12>        XXXXX...XXXXXX.......................... 11
                     0----+----1----+----2----+----3----+----4
                               0         0         0         0
 *********************************** FB3  ***********************************
@@ -292,17 +229,13 @@ Name                Pt      Pt    Pt  Pt               #    Type    Use
 (unused)              0       0     0   5     FB3_9   8     I/O     
 (unused)              0       0     0   5     FB3_10        (b)     
 (unused)              0       0     0   5     FB3_11  12    I/O     
-XLXN_176              2       0     0   3     FB3_12        (b)     (b)
-XLXN_175              2       0     0   3     FB3_13        (b)     (b)
-CFG_N_2<15>/CFG_N_2<15>_RSTF__$INT
-                      2       0     0   3     FB3_14  13    I/O     (b)
-CFG_N_2<14>/CFG_N_2<14>_RSTF__$INT
-                      2       0     0   3     FB3_15  14    I/O     (b)
-CFG_N_2<13>/CFG_N_2<13>_RSTF__$INT
-                      2       0     0   3     FB3_16  18    I/O     (b)
-CFG_N_2<12>/CFG_N_2<12>_RSTF__$INT
-                      2       0     0   3     FB3_17  16    I/O     (b)
-CFG_N_2<0>            1       0     0   4     FB3_18        (b)     (b)
+(unused)              0       0     0   5     FB3_12        (b)     
+XLXN_176              2       0     0   3     FB3_13        (b)     (b)
+XLXN_175              2       0     0   3     FB3_14  13    I/O     (b)
+XLXN_248              2       0     0   3     FB3_15  14    I/O     (b)
+XLXN_247              2       0     0   3     FB3_16  18    I/O     (b)
+XLXN_246              2       0     0   3     FB3_17  16    I/O     (b)
+XLXN_245              2       0     0   3     FB3_18        (b)     (b)
 
 Signals Used by Logic in Function Block
   1: COUNT_EN           4: Freq_control<2>    7: XLXN_176 
@@ -313,69 +246,56 @@ Signal                        1         2         3         4 FB
 Name                0----+----0----+----0----+----0----+----0 Inputs
 XLXN_176             .....XXX................................ 3
 XLXN_175             .....XXX................................ 3
-CFG_N_2<15>/CFG_N_2<15>_RSTF__$INT 
-                     XXXXX................................... 5
-CFG_N_2<14>/CFG_N_2<14>_RSTF__$INT 
-                     XXXXX................................... 5
-CFG_N_2<13>/CFG_N_2<13>_RSTF__$INT 
-                     XXXXX................................... 5
-CFG_N_2<12>/CFG_N_2<12>_RSTF__$INT 
-                     XXXXX................................... 5
-CFG_N_2<0>           X....................................... 1
+XLXN_248             X...X................................... 2
+XLXN_247             X..X.................................... 2
+XLXN_246             X.X..................................... 2
+XLXN_245             XX...................................... 2
                     0----+----1----+----2----+----3----+----4
                               0         0         0         0
 *********************************** FB4  ***********************************
-Number of function block inputs used/remaining:               27/27
-Number of signals used by logic mapping into function block:  27
+Number of function block inputs used/remaining:               14/40
+Number of signals used by logic mapping into function block:  14
 Signal              Total   Imp   Exp Unused  Loc     Pin   Pin     Pin
 Name                Pt      Pt    Pt  Pt               #    Type    Use
-(unused)              0       0     0   5     FB4_1         (b)     
+XLXN_176/XLXN_176_RSTF__$INT
+                      1       0   /\4   0     FB4_1         (b)     (b)
 (unused)              0       0     0   5     FB4_2   19    I/O     I
 (unused)              0       0     0   5     FB4_3         (b)     
 (unused)              0       0     0   5     FB4_4         (b)     
 (unused)              0       0     0   5     FB4_5   20    I/O     I
-XLXN_176/XLXN_176_RSTF__$INT
-                      1       0     0   4     FB4_6         (b)     (b)
-XLXI_12/Q<0>          2       0     0   3     FB4_7         (b)     (b)
-XLXI_12/Q<12>         3       0     0   2     FB4_8   21    I/O     I
-XLXI_12/CB0/XLXN_14   3       0     0   2     FB4_9         (b)     (b)
-XLXI_12/Q<7>          4       0     0   1     FB4_10        (b)     (b)
-XLXI_12/Q<6>          4       0     0   1     FB4_11  22    I/O     I
-XLXI_12/Q<5>          4       0     0   1     FB4_12        (b)     (b)
-XLXI_12/Q<4>          4       0     0   1     FB4_13        (b)     (b)
-CPU_IRQ               1       0     0   4     FB4_14  23    I/O     O
-DAC_LDAC              1       0     0   4     FB4_15  27    I/O     O
-XLXI_12/Q<3>          4       0     0   1     FB4_16        (b)     (b)
-XLXI_12/Q<2>          4       0     0   1     FB4_17  28    I/O     I
-XLXI_12/Q<1>          4       0     0   1     FB4_18        (b)     (b)
+(unused)              0       0     0   5     FB4_6         (b)     
+(unused)              0       0     0   5     FB4_7         (b)     
+(unused)              0       0     0   5     FB4_8   21    I/O     I
+(unused)              0       0     0   5     FB4_9         (b)     
+(unused)              0       0     0   5     FB4_10        (b)     
+XLXI_12/Q<0>          3       0   \/2   0     FB4_11  22    I/O     I
+XLXI_12/Q<1>          5       2<- \/2   0     FB4_12        (b)     (b)
+XLXI_12/Q<5>          7       2<-   0   0     FB4_13        (b)     (b)
+CPU_IRQ               3       0   \/1   1     FB4_14  23    I/O     O
+DAC_LDAC              4       1<- \/2   0     FB4_15  27    I/O     O
+XLXI_12/Q<4>          7       2<-   0   0     FB4_16        (b)     (b)
+XLXI_12/Q<3>          7       2<-   0   0     FB4_17  28    I/O     I
+XLXI_12/Q<2>          7       4<- /\2   0     FB4_18        (b)     (b)
 
 Signals Used by Logic in Function Block
-  1: CFG_N_2<0>        10: XLXI_12/CB0/XLXN_14  19: XLXI_12/Q<4> 
-  2: CFG_N_2<12>       11: XLXI_12/CB8/XLXN_14  20: XLXI_12/Q<5> 
-  3: CFG_N_2<1>        12: XLXI_12/Q<0>         21: XLXI_12/Q<6> 
-  4: CFG_N_2<2>        13: XLXI_12/Q<10>        22: XLXI_12/Q<7> 
-  5: CFG_N_2<3>        14: XLXI_12/Q<11>        23: XLXI_12/Q<8> 
-  6: CFG_N_2<4>        15: XLXI_12/Q<12>        24: XLXI_12/Q<9> 
-  7: CFG_N_2<5>        16: XLXI_12/Q<1>         25: XLXN_169 
-  8: CFG_N_2<6>        17: XLXI_12/Q<2>         26: XLXN_175 
-  9: CFG_N_2<7>        18: XLXI_12/Q<3>         27: XLXN_176 
+  1: XLXI_12/CB0/XLXN_14   6: XLXI_12/Q<3>      11: XLXN_245 
+  2: XLXI_12/CB8/XLXN_14   7: XLXI_12/Q<4>      12: XLXN_246 
+  3: XLXI_12/Q<0>          8: XLXI_12/Q<5>      13: XLXN_247 
+  4: XLXI_12/Q<1>          9: XLXN_175          14: XLXN_248 
+  5: XLXI_12/Q<2>         10: XLXN_176         
 
 Signal                        1         2         3         4 FB
 Name                0----+----0----+----0----+----0----+----0 Inputs
 XLXN_176/XLXN_176_RSTF__$INT 
-                     .........XX............................. 2
-XLXI_12/Q<0>         X........XXX............................ 4
-XLXI_12/Q<12>        .X.......XX.XXX.......XX................ 8
-XLXI_12/CB0/XLXN_14  X.XXXXXXXXXX...XXXXXXX.................. 18
-XLXI_12/Q<7>         ........XXXX...XXXXXXX.................. 11
-XLXI_12/Q<6>         .......X.XXX...XXXXXX................... 10
-XLXI_12/Q<5>         ......X..XXX...XXXXX.................... 9
-XLXI_12/Q<4>         .....X...XXX...XXXX..................... 8
-CPU_IRQ              ........................XXX............. 3
-DAC_LDAC             .........XX.............X.X............. 4
-XLXI_12/Q<3>         ....X....XXX...XXX...................... 7
-XLXI_12/Q<2>         ...X.....XXX...XX....................... 6
-XLXI_12/Q<1>         ..X......XXX...X........................ 5
+                     XX...................................... 2
+XLXI_12/Q<0>         XXX.......XXXX.......................... 7
+XLXI_12/Q<1>         XXXX......XXXX.......................... 8
+XLXI_12/Q<5>         XXXXXXXX..XXXX.......................... 12
+CPU_IRQ              ........XXXXXX.......................... 6
+DAC_LDAC             XX.......XXXXX.......................... 7
+XLXI_12/Q<4>         XXXXXXX...XXXX.......................... 11
+XLXI_12/Q<3>         XXXXXX....XXXX.......................... 10
+XLXI_12/Q<2>         XXXXX.....XXXX.......................... 9
                     0----+----1----+----2----+----3----+----4
                               0         0         0         0
 *******************************  Equations  ********************************
@@ -383,236 +303,136 @@ XLXI_12/Q<1>         ..X......XXX...X........................ 5
 ********** Mapped Logic **********
 
 
-$OpTx$INV$41__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0)));
+CPU_IRQ <= NOT (((XLXN_175)
+	OR (NOT XLXN_176)
+	OR (NOT XLXN_245 AND NOT XLXN_246 AND NOT XLXN_247 AND NOT XLXN_248)));
 
 
-$OpTx$INV$42__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0)));
+DAC_LDAC <= ((XLXN_176)
+	OR (XLXI_12/CB0/XLXN_14)
+	OR (XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXN_246 AND NOT XLXN_247 AND NOT XLXN_248));
 
 
-$OpTx$INV$47__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0)));
 
 
-$OpTx$INV$48__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0)));
 
 
-$OpTx$INV$49__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0)));
-
-
-$OpTx$INV$50__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0)));
-
-
-$OpTx$INV$51__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0)));
-
-
-$OpTx$INV$52__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0)));
-
-
-$OpTx$INV$53__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0)));
-
-
-$OpTx$INV$54__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0)));
-
-
-$OpTx$INV$55__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0)));
-
-
-$OpTx$INV$56__$INT <= ((NOT COUNT_EN)
-	OR (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0)));
-
-FDCPE_CFG_N_20: FDCPE port map (CFG_N_2(0),'0','0',COUNT_EN,'0');
-
-FDCPE_CFG_N_21: FDCPE port map (CFG_N_2(1),'0','0',NOT $OpTx$INV$47__$INT,CFG_N_2_PRE(1));
-CFG_N_2_PRE(1) <= (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_22: FDCPE port map (CFG_N_2(2),'0','0',NOT $OpTx$INV$48__$INT,CFG_N_2_PRE(2));
-CFG_N_2_PRE(2) <= (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_23: FDCPE port map (CFG_N_2(3),'0','0',NOT $OpTx$INV$49__$INT,CFG_N_2_PRE(3));
-CFG_N_2_PRE(3) <= (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_24: FDCPE port map (CFG_N_2(4),'0','0',NOT $OpTx$INV$50__$INT,CFG_N_2_PRE(4));
-CFG_N_2_PRE(4) <= (NOT Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_25: FDCPE port map (CFG_N_2(5),'0','0',NOT $OpTx$INV$51__$INT,CFG_N_2_PRE(5));
-CFG_N_2_PRE(5) <= (NOT Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_26: FDCPE port map (CFG_N_2(6),'0','0',NOT $OpTx$INV$52__$INT,CFG_N_2_PRE(6));
-CFG_N_2_PRE(6) <= (NOT Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_27: FDCPE port map (CFG_N_2(7),'0','0',NOT $OpTx$INV$53__$INT,CFG_N_2_PRE(7));
-CFG_N_2_PRE(7) <= (NOT Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_28: FDCPE port map (CFG_N_2(8),'0','0',NOT $OpTx$INV$54__$INT,CFG_N_2_PRE(8));
-CFG_N_2_PRE(8) <= (Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_29: FDCPE port map (CFG_N_2(9),'0','0',NOT $OpTx$INV$55__$INT,CFG_N_2_PRE(9));
-CFG_N_2_PRE(9) <= (Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_210: FDCPE port map (CFG_N_2(10),'0','0',NOT $OpTx$INV$41__$INT,CFG_N_2_PRE(10));
-CFG_N_2_PRE(10) <= (Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_211: FDCPE port map (CFG_N_2(11),'0','0',NOT $OpTx$INV$42__$INT,CFG_N_2_PRE(11));
-CFG_N_2_PRE(11) <= (Freq_control(3) AND NOT Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-FDCPE_CFG_N_212: FDCPE port map (CFG_N_2(12),'0','0',NOT CFG_N_2(12)/CFG_N_2(12)_RSTF__$INT,CFG_N_2_PRE(12));
-CFG_N_2_PRE(12) <= (Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
-
-
-CFG_N_2(12)/CFG_N_2(12)_RSTF__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0)));
-
-FDCPE_CFG_N_213: FDCPE port map (CFG_N_2(13),'0','0',NOT CFG_N_2(13)/CFG_N_2(13)_RSTF__$INT,CFG_N_2_PRE(13));
-CFG_N_2_PRE(13) <= (Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-
-CFG_N_2(13)/CFG_N_2(13)_RSTF__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND Freq_control(2) AND 
-	NOT Freq_control(1) AND Freq_control(0)));
-
-
-CFG_N_2(14)/CFG_N_2(14)_RSTF__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0)));
-
-FDCPE_CFG_N_214: FDCPE port map (CFG_N_2(14),'0','0',NOT CFG_N_2(14)/CFG_N_2(14)_RSTF__$INT,CFG_N_2_PRE(14));
-CFG_N_2_PRE(14) <= (Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
-
-
-CFG_N_2(15)/CFG_N_2(15)_RSTF__$INT <= ((NOT COUNT_EN)
-	OR (Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0)));
-
-FDCPE_CFG_N_215: FDCPE port map (CFG_N_2(15),'0','0',NOT CFG_N_2(15)/CFG_N_2(15)_RSTF__$INT,CFG_N_2_PRE(15));
-CFG_N_2_PRE(15) <= (Freq_control(3) AND Freq_control(2) AND 
-	Freq_control(1) AND Freq_control(0) AND COUNT_EN);
-
-
-CPU_IRQ <= (NOT XLXN_175 AND XLXN_176 AND NOT XLXN_169);
-
-
-DAC_LDAC <= NOT ((NOT XLXN_176 AND NOT XLXI_12/CB0/XLXN_14 AND NOT XLXN_169 AND 
-	NOT XLXI_12/CB8/XLXN_14));
 
 FDCPE_XLXI_12/CB0/XLXN_14: FDCPE port map (XLXI_12/CB0/XLXN_14,XLXI_12/CB0/XLXN_14_D,DDS_FREQ,'0','0');
-XLXI_12/CB0/XLXN_14_D <= ((XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(0) AND 
+XLXI_12/CB0/XLXN_14_D <= ((XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(0) AND 
 	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND NOT XLXI_12/Q(3) AND NOT XLXI_12/Q(4) AND 
 	NOT XLXI_12/Q(5) AND NOT XLXI_12/Q(6) AND NOT XLXI_12/Q(7))
 	OR (XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND 
 	NOT XLXI_12/Q(3) AND NOT XLXI_12/Q(4) AND NOT XLXI_12/Q(5) AND NOT XLXI_12/Q(6) AND 
-	NOT XLXI_12/Q(7) AND XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT CFG_N_2(1) AND NOT CFG_N_2(2) AND 
-	NOT CFG_N_2(3) AND NOT CFG_N_2(4) AND NOT CFG_N_2(5) AND NOT CFG_N_2(6) AND 
-	NOT CFG_N_2(7) AND NOT XLXI_12/CB8/XLXN_14 AND NOT CFG_N_2(0)));
+	NOT XLXI_12/Q(7) AND XLXI_12/CB8/XLXN_14));
 
 FDCPE_XLXI_12/CB8/XLXN_14: FDCPE port map (XLXI_12/CB8/XLXN_14,XLXI_12/CB8/XLXN_14_D,DDS_FREQ,'0','0');
-XLXI_12/CB8/XLXN_14_D <= ((XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
+XLXI_12/CB8/XLXN_14_D <= ((NOT XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
 	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND NOT XLXI_12/Q(11) AND NOT XLXI_12/Q(12) AND 
 	NOT XLXI_12/Q(13) AND NOT XLXI_12/Q(14) AND NOT XLXI_12/Q(15))
 	OR (NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(8) AND 
 	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND NOT XLXI_12/Q(11) AND NOT XLXI_12/Q(12) AND 
 	NOT XLXI_12/Q(13) AND NOT XLXI_12/Q(14) AND NOT XLXI_12/Q(15) AND 
-	XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT CFG_N_2(10) AND NOT CFG_N_2(11) AND 
-	NOT CFG_N_2(12) AND NOT CFG_N_2(13) AND NOT CFG_N_2(14) AND NOT CFG_N_2(15) AND 
-	NOT CFG_N_2(8) AND NOT CFG_N_2(9) AND NOT XLXI_12/CB8/XLXN_14));
-
-FTCPE_XLXI_12/Q0: FTCPE port map (XLXI_12/Q(0),XLXI_12/Q_T(0),DDS_FREQ,'0','0');
-XLXI_12/Q_T(0) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(0) AND 
-	NOT XLXI_12/CB8/XLXN_14 AND CFG_N_2(0))
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
-	NOT XLXI_12/CB8/XLXN_14 AND NOT CFG_N_2(0)));
-
-FTCPE_XLXI_12/Q1: FTCPE port map (XLXI_12/Q(1),XLXI_12/Q_T(1),DDS_FREQ,'0','0');
-XLXI_12/Q_T(1) <= ((XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0))
-	OR (NOT XLXI_12/Q(0) AND XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(1) AND NOT CFG_N_2(1) AND 
-	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(1) AND CFG_N_2(1) AND 
-	NOT XLXI_12/CB8/XLXN_14));
-
-FTCPE_XLXI_12/Q2: FTCPE port map (XLXI_12/Q(2),XLXI_12/Q_T(2),DDS_FREQ,'0','0');
-XLXI_12/Q_T(2) <= ((XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
-	NOT XLXI_12/Q(1))
-	OR (NOT XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND 
-	XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(2) AND NOT CFG_N_2(2) AND 
-	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(2) AND CFG_N_2(2) AND 
-	NOT XLXI_12/CB8/XLXN_14));
-
-FTCPE_XLXI_12/Q3: FTCPE port map (XLXI_12/Q(3),XLXI_12/Q_T(3),DDS_FREQ,'0','0');
-XLXI_12/Q_T(3) <= ((XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
-	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2))
-	OR (NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(3) AND NOT CFG_N_2(3) AND 
-	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(3) AND CFG_N_2(3) AND 
-	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND 
 	XLXI_12/CB8/XLXN_14));
 
-FTCPE_XLXI_12/Q4: FTCPE port map (XLXI_12/Q(4),XLXI_12/Q_T(4),DDS_FREQ,'0','0');
-XLXI_12/Q_T(4) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(4) AND NOT CFG_N_2(4) AND 
+FDCPE_XLXI_12/Q0: FDCPE port map (XLXI_12/Q(0),XLXI_12/Q_D(0),DDS_FREQ,'0','0');
+XLXI_12/Q_D(0) <= ((XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0))
+	OR (NOT XLXI_12/Q(0) AND XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXN_246 AND NOT XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14));
+
+FDCPE_XLXI_12/Q1: FDCPE port map (XLXI_12/Q(1),XLXI_12/Q_D(1),DDS_FREQ,'0','0');
+XLXI_12/Q_D(1) <= ((NOT XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXN_246 AND NOT XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(0) AND 
+	XLXI_12/Q(1))
+	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
+	NOT XLXI_12/Q(1))
+	OR (XLXI_12/Q(0) AND XLXI_12/Q(1) AND 
+	XLXI_12/CB8/XLXN_14));
+
+FDCPE_XLXI_12/Q2: FDCPE port map (XLXI_12/Q(2),XLXI_12/Q_D(2),DDS_FREQ,'0','0');
+XLXI_12/Q_D(2) <= ((XLXI_12/Q(1) AND XLXI_12/Q(2) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
+	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2))
+	OR (NOT XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND XLXN_246 AND NOT XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(0) AND 
+	XLXI_12/Q(2))
+	OR (XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(1) AND 
+	XLXI_12/Q(2))
+	OR (XLXI_12/Q(0) AND XLXI_12/Q(2) AND 
+	XLXI_12/CB8/XLXN_14));
+
+FTCPE_XLXI_12/Q3: FTCPE port map (XLXI_12/Q(3),XLXI_12/Q_T(3),DDS_FREQ,'0','0');
+XLXI_12/Q_T(3) <= ((XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(3) AND 
 	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(4) AND CFG_N_2(4) AND 
+	OR (XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(3) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(3) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(3) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
+	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2))
+	OR (NOT XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND XLXN_246 AND NOT XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(3) AND NOT XLXI_12/CB8/XLXN_14));
+
+FTCPE_XLXI_12/Q4: FTCPE port map (XLXI_12/Q(4),XLXI_12/Q_T(4),DDS_FREQ,'0','0');
+XLXI_12/Q_T(4) <= ((NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(4) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(4) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(4) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(4) AND 
 	NOT XLXI_12/CB8/XLXN_14)
 	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
 	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND NOT XLXI_12/Q(3))
 	OR (NOT XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND 
-	NOT XLXI_12/Q(3) AND XLXI_12/CB8/XLXN_14));
+	NOT XLXI_12/Q(3) AND XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXN_246 AND XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(4) AND NOT XLXI_12/CB8/XLXN_14));
 
 FTCPE_XLXI_12/Q5: FTCPE port map (XLXI_12/Q(5),XLXI_12/Q_T(5),DDS_FREQ,'0','0');
-XLXI_12/Q_T(5) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(5) AND NOT CFG_N_2(5) AND 
+XLXI_12/Q_T(5) <= ((NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(5) AND 
 	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(5) AND CFG_N_2(5) AND 
+	OR (XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(5) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(5) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(5) AND 
 	NOT XLXI_12/CB8/XLXN_14)
 	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
 	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND NOT XLXI_12/Q(3) AND NOT XLXI_12/Q(4))
 	OR (NOT XLXI_12/Q(0) AND NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND 
-	NOT XLXI_12/Q(3) AND NOT XLXI_12/Q(4) AND XLXI_12/CB8/XLXN_14));
+	NOT XLXI_12/Q(3) AND NOT XLXI_12/Q(4) AND XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXN_246 AND XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(5) AND NOT XLXI_12/CB8/XLXN_14));
 
 FTCPE_XLXI_12/Q6: FTCPE port map (XLXI_12/Q(6),XLXI_12/Q_T(6),DDS_FREQ,'0','0');
-XLXI_12/Q_T(6) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(6) AND NOT CFG_N_2(6) AND 
+XLXI_12/Q_T(6) <= ((NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(6) AND 
 	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(6) AND CFG_N_2(6) AND 
+	OR (XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(6) AND 
 	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(6) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(6) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND XLXN_246 AND XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(6) AND NOT XLXI_12/CB8/XLXN_14)
 	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
 	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND NOT XLXI_12/Q(3) AND NOT XLXI_12/Q(4) AND 
 	NOT XLXI_12/Q(5))
@@ -621,10 +441,16 @@ XLXI_12/Q_T(6) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(6) AND NOT CFG_N_2(6) 
 	XLXI_12/CB8/XLXN_14));
 
 FTCPE_XLXI_12/Q7: FTCPE port map (XLXI_12/Q(7),XLXI_12/Q_T(7),DDS_FREQ,'0','0');
-XLXI_12/Q_T(7) <= ((NOT XLXI_12/CB0/XLXN_14 AND CFG_N_2(7) AND NOT XLXI_12/Q(7) AND 
+XLXI_12/Q_T(7) <= ((NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(7) AND 
 	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT CFG_N_2(7) AND XLXI_12/Q(7) AND 
+	OR (XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(7) AND 
 	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(7) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(7) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND XLXN_246 AND XLXN_247 AND NOT XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(7) AND NOT XLXI_12/CB8/XLXN_14)
 	OR (XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(0) AND 
 	NOT XLXI_12/Q(1) AND NOT XLXI_12/Q(2) AND NOT XLXI_12/Q(3) AND NOT XLXI_12/Q(4) AND 
 	NOT XLXI_12/Q(5) AND NOT XLXI_12/Q(6))
@@ -636,72 +462,102 @@ FDCPE_XLXI_12/Q8: FDCPE port map (XLXI_12/Q(8),XLXI_12/Q_D(8),DDS_FREQ,'0','0');
 XLXI_12/Q_D(8) <= ((XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(8))
 	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
 	XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND CFG_N_2(8) AND 
-	NOT XLXI_12/CB8/XLXN_14));
+	OR (NOT XLXN_245 AND NOT XLXN_246 AND NOT XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14));
 
-FTCPE_XLXI_12/Q9: FTCPE port map (XLXI_12/Q(9),XLXI_12/Q_T(9),DDS_FREQ,'0','0');
-XLXI_12/Q_T(9) <= ((NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
+FDCPE_XLXI_12/Q9: FDCPE port map (XLXI_12/Q(9),XLXI_12/Q_D(9),DDS_FREQ,'0','0');
+XLXI_12/Q_D(9) <= ((XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(9))
+	OR (XLXI_12/Q(8) AND XLXI_12/Q(9) AND 
 	XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(9) AND NOT CFG_N_2(9) AND 
-	NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(9) AND CFG_N_2(9) AND 
-	NOT XLXI_12/CB8/XLXN_14));
-
-FTCPE_XLXI_12/Q10: FTCPE port map (XLXI_12/Q(10),XLXI_12/Q_T(10),DDS_FREQ,'0','0');
-XLXI_12/Q_T(10) <= ((NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
-	NOT XLXI_12/Q(9) AND XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(10) AND 
-	NOT CFG_N_2(10) AND NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(10) AND 
-	CFG_N_2(10) AND NOT XLXI_12/CB8/XLXN_14));
-
-FTCPE_XLXI_12/Q11: FTCPE port map (XLXI_12/Q(11),XLXI_12/Q_T(11),DDS_FREQ,'0','0');
-XLXI_12/Q_T(11) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(11) AND 
-	NOT CFG_N_2(11) AND NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(11) AND 
-	CFG_N_2(11) AND NOT XLXI_12/CB8/XLXN_14)
 	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
-	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND XLXI_12/CB8/XLXN_14));
+	NOT XLXI_12/Q(9) AND XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXN_246 AND NOT XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14));
 
-FTCPE_XLXI_12/Q12: FTCPE port map (XLXI_12/Q(12),XLXI_12/Q_T(12),DDS_FREQ,'0','0');
-XLXI_12/Q_T(12) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(12) AND 
-	NOT CFG_N_2(12) AND NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(12) AND 
-	CFG_N_2(12) AND NOT XLXI_12/CB8/XLXN_14)
+FDCPE_XLXI_12/Q10: FDCPE port map (XLXI_12/Q(10),XLXI_12/Q_D(10),DDS_FREQ,'0','0');
+XLXI_12/Q_D(10) <= ((XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(10))
+	OR (XLXI_12/Q(8) AND XLXI_12/Q(10) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/Q(9) AND XLXI_12/Q(10) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
+	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND XLXN_246 AND NOT XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14));
+
+FDCPE_XLXI_12/Q11: FDCPE port map (XLXI_12/Q(11),XLXI_12/Q_D(11),DDS_FREQ,'0','0');
+XLXI_12/Q_D(11) <= ((XLXI_12/Q(10) AND XLXI_12/Q(11) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND XLXN_246 AND NOT XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14)
 	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
 	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND NOT XLXI_12/Q(11) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(11))
+	OR (XLXI_12/Q(8) AND XLXI_12/Q(11) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (XLXI_12/Q(9) AND XLXI_12/Q(11) AND 
 	XLXI_12/CB8/XLXN_14));
 
+FTCPE_XLXI_12/Q12: FTCPE port map (XLXI_12/Q(12),XLXI_12/Q_T(12),DDS_FREQ,'0','0');
+XLXI_12/Q_T(12) <= ((NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(12) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(12) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(12) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(12) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
+	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND NOT XLXI_12/Q(11) AND 
+	XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXN_246 AND XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(12) AND NOT XLXI_12/CB8/XLXN_14));
+
 FTCPE_XLXI_12/Q13: FTCPE port map (XLXI_12/Q(13),XLXI_12/Q_T(13),DDS_FREQ,'0','0');
-XLXI_12/Q_T(13) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(13) AND 
-	NOT CFG_N_2(13) AND NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(13) AND 
-	CFG_N_2(13) AND NOT XLXI_12/CB8/XLXN_14)
+XLXI_12/Q_T(13) <= ((NOT XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(13) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(13) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(13) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(13) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXN_246 AND XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(13) AND NOT XLXI_12/CB8/XLXN_14)
 	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
 	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND NOT XLXI_12/Q(11) AND NOT XLXI_12/Q(12) AND 
 	XLXI_12/CB8/XLXN_14));
 
 FTCPE_XLXI_12/Q14: FTCPE port map (XLXI_12/Q(14),XLXI_12/Q_T(14),DDS_FREQ,'0','0');
-XLXI_12/Q_T(14) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(14) AND 
-	NOT CFG_N_2(14) AND NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(14) AND 
-	CFG_N_2(14) AND NOT XLXI_12/CB8/XLXN_14)
+XLXI_12/Q_T(14) <= ((NOT XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(14) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(14) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(14) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(14) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND XLXN_246 AND XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(14) AND NOT XLXI_12/CB8/XLXN_14)
 	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
 	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND NOT XLXI_12/Q(11) AND NOT XLXI_12/Q(12) AND 
 	NOT XLXI_12/Q(13) AND XLXI_12/CB8/XLXN_14));
 
 FTCPE_XLXI_12/Q15: FTCPE port map (XLXI_12/Q(15),XLXI_12/Q_T(15),DDS_FREQ,'0','0');
-XLXI_12/Q_T(15) <= ((NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(15) AND 
-	NOT CFG_N_2(15) AND NOT XLXI_12/CB8/XLXN_14)
-	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(15) AND 
-	CFG_N_2(15) AND NOT XLXI_12/CB8/XLXN_14)
+XLXI_12/Q_T(15) <= ((NOT XLXN_247 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(15) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_248 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(15) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_245 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(15) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (NOT XLXN_246 AND NOT XLXI_12/CB0/XLXN_14 AND XLXI_12/Q(15) AND 
+	NOT XLXI_12/CB8/XLXN_14)
+	OR (XLXN_245 AND XLXN_246 AND XLXN_247 AND XLXN_248 AND 
+	NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(15) AND NOT XLXI_12/CB8/XLXN_14)
 	OR (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/Q(8) AND 
 	NOT XLXI_12/Q(9) AND NOT XLXI_12/Q(10) AND NOT XLXI_12/Q(11) AND NOT XLXI_12/Q(12) AND 
 	NOT XLXI_12/Q(13) AND NOT XLXI_12/Q(14) AND XLXI_12/CB8/XLXN_14));
-
-FDCPE_XLXN_169: FDCPE port map (XLXN_169,'0','0',NOT $OpTx$INV$56__$INT,XLXN_169_PRE);
-XLXN_169_PRE <= (NOT Freq_control(3) AND NOT Freq_control(2) AND 
-	NOT Freq_control(1) AND NOT Freq_control(0) AND COUNT_EN);
 
 FDCPE_XLXN_175: FDCPE port map (XLXN_175,XLXN_175_D,IN_10MHz,NOT XLXN_176/XLXN_176_RSTF__$INT,'0');
 XLXN_175_D <= (XLXN_175 AND NOT XLXN_176);
@@ -711,6 +567,22 @@ XLXN_176_D <= (NOT XLXN_175 AND NOT XLXN_176);
 
 
 XLXN_176/XLXN_176_RSTF__$INT <= (NOT XLXI_12/CB0/XLXN_14 AND NOT XLXI_12/CB8/XLXN_14);
+
+FDCPE_XLXN_245: FDCPE port map (XLXN_245,'0','0',XLXN_245_CLR,XLXN_245_PRE);
+XLXN_245_CLR <= (NOT Freq_control(0) AND COUNT_EN);
+XLXN_245_PRE <= (Freq_control(0) AND COUNT_EN);
+
+FDCPE_XLXN_246: FDCPE port map (XLXN_246,'0','0',XLXN_246_CLR,XLXN_246_PRE);
+XLXN_246_CLR <= (COUNT_EN AND NOT Freq_control(1));
+XLXN_246_PRE <= (COUNT_EN AND Freq_control(1));
+
+FDCPE_XLXN_247: FDCPE port map (XLXN_247,'0','0',XLXN_247_CLR,XLXN_247_PRE);
+XLXN_247_CLR <= (COUNT_EN AND NOT Freq_control(2));
+XLXN_247_PRE <= (COUNT_EN AND Freq_control(2));
+
+FDCPE_XLXN_248: FDCPE port map (XLXN_248,'0','0',XLXN_248_CLR,XLXN_248_PRE);
+XLXN_248_CLR <= (COUNT_EN AND NOT Freq_control(3));
+XLXN_248_PRE <= (COUNT_EN AND Freq_control(3));
 
 Register Legend:
  FDCPE (Q,D,C,CLR,PRE,CE); 

@@ -13,13 +13,139 @@ Finished circuit initialization process.
 # isim force add /sch/dds_freq 1 -radix bin -value 0 -radix bin -time 1061500 ps -repeat 2123 ns
 # isim force add /sch/freq_control 0011 -radix bin
 # isim force add /sch/in_10mhz 1 -radix bin -value 0 -radix bin -time 50 ns -repeat 100 ns
-# run 1us
+# isim force add /sch/in_10mhz 1 -radix bin -value 0 -radix bin -time 50 ns -repeat 100 ns
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 100us
 # isim force add /sch/count_en 0 -radix bin
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
 # isim force add /sch/freq_control 0000 -radix bin
-# run 1us
-# run 1us
-# run 1us
-# run 1us
+# isim force add /sch/freq_control 0000 -radix bin
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 100us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# isim force add /sch/count_en 1 -radix bin
+# isim force add /sch/count_en 1 -radix bin
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# isim force add /sch/count_en 0 -radix bin
+# isim force add /sch/count_en 0 -radix bin
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# isim force add /sch/freq_control 0111 -radix bin
+# isim force add /sch/freq_control 0111 -radix bin
+# isim force add /sch/freq_control 0111 -radix bin
+# isim force add /sch/count_en 1 -radix bin -cancel 0 fs
+# isim force add /sch/count_en 1 -radix bin -cancel 0 fs
+# run 10us
+# isim force add /sch/count_en 0 -radix bin
+# isim force add /sch/count_en 0 -radix bin
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
+# run 10us
 # run 10us
 # run 10us
 # run 10us
