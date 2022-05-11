@@ -48,3 +48,8 @@ cpldfit -intstyle ise -p xc9572xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -l
 XSLTProcess sch_build.xml 
 tsim -intstyle ise sch sch.nga 
 hprep6 -s IEEE1149 -n sch -i sch 
+xst -intstyle ise -ifn "Z:/Timebase_CPLD/sch.xst" -ofn "Z:/Timebase_CPLD/sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc pibout.ucf -p xc9572xl-VQ44-10 sch.ngc sch.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sch.ngd 
+XSLTProcess sch_build.xml 
+tsim -intstyle ise sch sch.nga 

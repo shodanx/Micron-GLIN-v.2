@@ -1,99 +1,99 @@
-V3 67
+V3 65
 FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf 2022/05/09.17:28:10 P.20131013
-EN work/D2_4E_MXILINX_sch 1652143133 \
+EN work/D2_4E_MXILINX_sch 1652184036 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/D2_4E_MXILINX_sch/BEHAVIORAL 1652143134 \
+AR work/D2_4E_MXILINX_sch/BEHAVIORAL 1652184037 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/D2_4E_MXILINX_sch 1652143133 CP AND3 CP AND3B1 CP AND3B2
-EN work/FTCE_MXILINX_sch 1652143135 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/FTCE_MXILINX_sch/BEHAVIORAL 1652143136 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/FTCE_MXILINX_sch 1652143135 CP XOR2 CP FDCE
-EN work/CB2CE_MXILINX_sch 1652143137 \
+      EN work/D2_4E_MXILINX_sch 1652184036 CP AND3 CP AND3B1 CP AND3B2
+EN work/FTCE_MXILINX_sch 1652184038 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/CB2CE_MXILINX_sch/BEHAVIORAL 1652143138 \
+AR work/FTCE_MXILINX_sch/BEHAVIORAL 1652184039 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/CB2CE_MXILINX_sch 1652143137 CP AND2 CP VCC CP FTCE_MXILINX_sch
-EN work/D4_16E_MXILINX_sch 1652143139 \
+      EN work/FTCE_MXILINX_sch 1652184038 CP XOR2 CP FDCE
+EN work/CB2CE_MXILINX_sch 1652184040 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/D4_16E_MXILINX_sch/BEHAVIORAL 1652143140 \
+AR work/CB2CE_MXILINX_sch/BEHAVIORAL 1652184041 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/D4_16E_MXILINX_sch 1652143139 CP AND5B3 CP AND5B2 CP AND5B1 CP AND5 \
+      EN work/CB2CE_MXILINX_sch 1652184040 CP AND2 CP VCC CP FTCE_MXILINX_sch
+EN work/D4_16E_MXILINX_sch 1652184042 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D4_16E_MXILINX_sch/BEHAVIORAL 1652184043 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      EN work/D4_16E_MXILINX_sch 1652184042 CP AND5B3 CP AND5B2 CP AND5B1 CP AND5 \
       CP AND5B4
-EN work/LD4_MXILINX_sch 1652143141 \
+EN work/LD4_MXILINX_sch 1652184044 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/LD4_MXILINX_sch/BEHAVIORAL 1652143142 \
+AR work/LD4_MXILINX_sch/BEHAVIORAL 1652184045 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/LD4_MXILINX_sch 1652143141 CP LD
-EN work/AND9_MXILINX_sch 1652143143 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/AND9_MXILINX_sch/BEHAVIORAL 1652143144 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/AND9_MXILINX_sch 1652143143 CP AND4 CP AND3
-EN work/AND8_MXILINX_sch 1652143145 \
+      EN work/LD4_MXILINX_sch 1652184044 CP LD
+EN work/AND9_MXILINX_sch 1652184046 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/AND8_MXILINX_sch/BEHAVIORAL 1652143146 \
+AR work/AND9_MXILINX_sch/BEHAVIORAL 1652184047 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/AND8_MXILINX_sch 1652143145 CP AND4 CP AND2
-EN work/AND7_MXILINX_sch 1652143147 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/AND7_MXILINX_sch/BEHAVIORAL 1652143148 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/AND7_MXILINX_sch 1652143147 CP AND4
-EN work/AND6_MXILINX_sch 1652143149 \
+      EN work/AND9_MXILINX_sch 1652184046 CP AND4 CP AND3
+EN work/AND8_MXILINX_sch 1652184048 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/AND6_MXILINX_sch/BEHAVIORAL 1652143150 \
+AR work/AND8_MXILINX_sch/BEHAVIORAL 1652184049 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/AND6_MXILINX_sch 1652143149 CP AND3 CP AND4
-EN work/FDC_MXILINX_sch 1652143151 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/FDC_MXILINX_sch/BEHAVIORAL 1652143152 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/FDC_MXILINX_sch 1652143151 CP GND CP FDCP
-EN work/CB8X1_MXILINX_sch 1652143153 \
+      EN work/AND8_MXILINX_sch 1652184048 CP AND4 CP AND2
+EN work/AND7_MXILINX_sch 1652184050 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/CB8X1_MXILINX_sch/BEHAVIORAL 1652143154 \
+AR work/AND7_MXILINX_sch/BEHAVIORAL 1652184051 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/CB8X1_MXILINX_sch 1652143153 CP AND2B1 CP AND3B2 CP AND2 CP OR3 CP XOR2 \
+      EN work/AND7_MXILINX_sch 1652184050 CP AND4
+EN work/AND6_MXILINX_sch 1652184052 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/AND6_MXILINX_sch/BEHAVIORAL 1652184053 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      EN work/AND6_MXILINX_sch 1652184052 CP AND3 CP AND4
+EN work/FDC_MXILINX_sch 1652184054 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FDC_MXILINX_sch/BEHAVIORAL 1652184055 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      EN work/FDC_MXILINX_sch 1652184054 CP GND CP FDCP
+EN work/CB8X1_MXILINX_sch 1652184056 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB8X1_MXILINX_sch/BEHAVIORAL 1652184057 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
+      EN work/CB8X1_MXILINX_sch 1652184056 CP AND2B1 CP AND3B2 CP AND2 CP OR3 CP XOR2 \
       CP AND3B1 CP AND4B3 CP AND4B1 CP AND5B4 CP AND6_MXILINX_sch CP AND7_MXILINX_sch \
       CP AND8_MXILINX_sch CP AND9_MXILINX_sch CP INV CP AND5 CP OR2 CP GND CP AND2B2 \
       CP NOR4 CP FDC_MXILINX_sch
-EN work/CB16X1_MXILINX_sch 1652143155 \
+EN work/CB16X1_MXILINX_sch 1652184058 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/CB16X1_MXILINX_sch/BEHAVIORAL 1652143156 \
+AR work/CB16X1_MXILINX_sch/BEHAVIORAL 1652184059 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
-      EN work/CB16X1_MXILINX_sch 1652143155 CP CB8X1_MXILINX_sch CP AND2
-EN work/sch 1652143157 \
+      EN work/CB16X1_MXILINX_sch 1652184058 CP CB8X1_MXILINX_sch CP AND2
+EN work/sch 1652184060 \
       FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/sch/BEHAVIORAL 1652143158 \
-      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf EN work/sch 1652143157 \
+AR work/sch/BEHAVIORAL 1652184061 \
+      FL //vboxsvr/timebase_cpld_software/Timebase_CPLD/sch.vhf EN work/sch 1652184060 \
       CP D4_16E_MXILINX_sch CP CB16X1_MXILINX_sch CP INV CP AND2 CP VCC CP GND \
       CP D2_4E_MXILINX_sch CP CB2CE_MXILINX_sch CP OR2 CP BUFG CP AND3 \
       CP LD4_MXILINX_sch
