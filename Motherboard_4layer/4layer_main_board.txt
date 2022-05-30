@@ -1,9 +1,9 @@
 Board Information Report
 Filename     : C:\Проекты\Micron-GLIN-v.2\Motherboard_4layer\4layer_main_board.PcbDoc
 Date         : 18.05.2022
-Time         : 9:02:32
+Time         : 10:36:48
 Time Elapsed : 00:00:00
 
-Pad Paste Mask, Count
-    0mm, 278
+Pad Solder Mask, Count
+    0.0635mm, 278
 count : 1
