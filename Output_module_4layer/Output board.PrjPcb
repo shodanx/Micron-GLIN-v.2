@@ -185,70 +185,58 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Ramp-generator\4layer_main_board.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Ramp-generator\4layer_main_board.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Ramp-generator\4layer_main_board.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument2]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument3]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument4]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument5]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument6]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument7]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument8]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument9]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument10]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument11]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument12]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument13]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument14]
 DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.TXT
 DItemRevisionGUID=
 

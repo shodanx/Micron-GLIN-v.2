@@ -219,26 +219,6 @@ DItemRevisionGUID=
 DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GTS
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
