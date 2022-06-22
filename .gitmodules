@@ -1,0 +1,4 @@
+[submodule "MCU_software"]
+	path = MCU_software
+	url = git@github.com:shodanx/Micron-GLIN-v.2.git
+	branch = MCU_Firmware
