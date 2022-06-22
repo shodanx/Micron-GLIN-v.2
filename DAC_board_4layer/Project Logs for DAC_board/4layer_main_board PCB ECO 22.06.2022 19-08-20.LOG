@@ -1,0 +1,31 @@
+Change Class Name : Old Net Name=shcematics New Net Name=v2
+Added Member To Class: ClassName=v2 Member=Component C38 1uF
+Added Member To Class: ClassName=v2 Member=Component C39 Cap Semi
+Added Member To Class: ClassName=v2 Member=Component C40 1uF
+Added Member To Class: ClassName=v2 Member=Component C41 1uF
+Added Member To Class: ClassName=v2 Member=Component C42 1uF
+Added Member To Class: ClassName=v2 Member=Component C43 Cap Semi
+Added Member To Class: ClassName=v2 Member=Component IC1 ADR1399KHZ
+Added Member To Class: ClassName=v2 Member=Component IC2 ADR1399KHZ
+Added Member To Class: ClassName=v2 Member=Component P1 MMCX
+Added Member To Class: ClassName=v2 Member=Component P2 Header 18X2
+Added Member To Class: ClassName=v2 Member=Component P3 Header 18X2
+Added Member To Class: ClassName=v2 Member=Component R6 2.67K 25ppmC
+Added Member To Class: ClassName=v2 Member=Component R7 2.67K 25ppmC
+Added Member To Class: ClassName=v2 Member=Component R8 2.67K 25ppmC
+Added Member To Class: ClassName=v2 Member=Component R9 2.67K 25ppmC
+Added Member To Class: ClassName=v2 Member=Component R10 50R
+Added Member To Class: ClassName=v2 Member=Component R11 5R1
+Added Member To Class: ClassName=v2 Member=Component R12 5R1
+Added Member To Class: ClassName=v2 Member=Component R13 50R
+Added Member To Class: ClassName=v2 Member=Component R14 MPMT50011002AT1
+Added Member To Class: ClassName=v2 Member=Component R15 1M
+Added Member To Class: ClassName=v2 Member=Component RN1 CAT16-470J4LF
+Added Member To Class: ClassName=v2 Member=Component RN2 CAT16-470J4LF
+Added Member To Class: ClassName=v2 Member=Component U1 DAC11001B
+Added Member To Class: ClassName=v2 Member=Component U2 OPA189ID
+Added Member To Class: ClassName=v2 Member=Component U3 OPA189ID
+Added Member To Class: ClassName=v2 Member=Component U4 OPA189ID
+Added Member To Class: ClassName=v2 Member=Component U5 OPA189ID
+Added Member To Class: ClassName=v2 Member=Component U6 OPA189ID
+Added Member To Class: ClassName=v2 Member=Component U7 OPA189ID
