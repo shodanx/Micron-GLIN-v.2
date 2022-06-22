@@ -66,23 +66,6 @@ GenerateClassCluster=0
 DocumentUniqueId=TNSJUOIQ
 
 [Document2]
-DocumentPath=Ramp-generator.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=Timebase_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MRMAFVQD
 
-[Document4]
+[Document3]
 DocumentPath=Ramp-generator.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -115,6 +98,79 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document4]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=..\Project_Files\Gerbers\Timebase board\Timebase_PCB.TXT
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration

@@ -49,23 +49,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Ramp-generator.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=Motherboard_schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +65,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SBZCFDPE
 
-[Document3]
+[Document2]
 DocumentPath=Motherboard_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MRMAFVQD
 
-[Document4]
+[Document3]
 DocumentPath=Ramp-generator.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=..\..\..\Altium Component Library\My library\Miscellaneous Devices.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OFLUCPJS
 
-[Document6]
+[Document5]
 DocumentPath=..\..\..\Users\Public\Documents\Altium\AD21\Library\Miscellaneous Devices.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=4layer_main_board.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -166,6 +149,79 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document7]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=..\Project_Files\Gerbers\Motherboard\Motherboard_PCB.TXT
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration

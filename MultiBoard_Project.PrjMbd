@@ -63,7 +63,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ab0344bb-a5b6-4ca4-b19f-6f77f9b9b6b9
+DocumentUniqueId=1c627044-d6ff-4b7b-bc2f-873a051c1f86
 
 [Document2]
 DocumentPath=MultiBoardSchematic1.MbsDoc
@@ -202,7 +202,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=MultiBoard_Project.OutJob
+DocumentPath=External_power_board_2layer(Kradex Z4 case)\External Power supply.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -219,7 +219,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=External_power_board_2layer(Kradex Z4 case)\External Power supply.PrjPcb
+DocumentPath=Front_panel_Alliminium_5025\Aluminium Front Panel.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0

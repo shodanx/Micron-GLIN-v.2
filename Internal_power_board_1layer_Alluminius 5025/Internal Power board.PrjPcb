@@ -49,23 +49,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Ramp-generator.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=Ramp-generator.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +65,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
+[Document2]
 DocumentPath=..\..\..\Altium Component Library\Altium CERN Library (mar 2013)\CernLib\PcbLib\ICs And Semiconductors SMD.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=..\..\..\Altium Component Library\Altium Unified Components\Linear Technology\Linear Technology Operational Amplifiers (LT2000-LT6000).IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=Internal_Power_schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SHXZQJMZ
 
-[Document6]
+[Document5]
 DocumentPath=Internal_Power_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TBMQTSDP
 
-[Document7]
+[Document6]
 DocumentPath=placemrnt.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,23 +150,92 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GKO
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GTL
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GTO
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Ramp-generator\PCB1.GTP
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument5]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=..\Project_Files\Gerbers\Internal Power board\Internal_Power_PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Ramp-generator\PCB1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Ramp-generator\PCB1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Ramp-generator\PCB1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Ramp-generator\PCB1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
 DocumentPath=Project Outputs for Ramp-generator\PCB1.GTS
 DItemRevisionGUID=
 

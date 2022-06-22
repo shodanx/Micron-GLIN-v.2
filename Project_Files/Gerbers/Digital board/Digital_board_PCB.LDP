@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Проекты\Micron-GLIN-v.2\Digital_board_4layer\Digital_board_PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=digital_board_pcb-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=digital_board_pcb-slotholes.txt|DrillLayers=gtl,g1,g2,gbl

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Motherboard_PCB.PcbDoc]
+   Generated File[Motherboard_PCB.TXT]
+   Generated File[Motherboard_PCB.LDP]
+   Generated File[Motherboard_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 22:24:17 On 22.06.2022

@@ -1,0 +1,262 @@
+*************************************************************
+FileName = DAC_board_PCB.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Paste
+      File : DAC_board_PCB.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : DAC_board_PCB.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D18
+    D19
+    D20
+    D26
+    D38
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Int2 (PWR)
+      File : DAC_board_PCB.G2
+
+    Adding Layer      : Int2 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : DAC_board_PCB.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D12
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : DAC_board_PCB.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D24
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : DAC_board_PCB.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D28
+    D29
+    D33
+    D34
+    D35
+    D36
+    D37
+    D40
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : DAC_board_PCB.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D14
+    D15
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : DAC_board_PCB.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Int1 (GND)
+      File : DAC_board_PCB.G1
+
+    Adding Layer      : Int1 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : DAC_board_PCB.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : DAC_board_PCB.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D26
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : DAC_board_PCB.GM
+
+
+Used DCodes :
+    D56
+*************************************************************
+

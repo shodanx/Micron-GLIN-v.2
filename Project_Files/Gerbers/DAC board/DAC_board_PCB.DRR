@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DAC_board_PCB.PcbDoc   22.06.2022  22:23:49
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : DAC_board_PCB.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             2         PTH        0.16inch (4.16mm)
+T2      12mil (0.3mm)                                             Round             78        PTH        12.18inch (309.26mm)
+T3      20mil (0.5mm)                                             Round             4         PTH        0.96inch (24.42mm)
+T4      28mil (0.708mm)                                           Round             8         PTH        1.04inch (26.52mm)
+T5      33mil (0.85mm)                                            Round             5         PTH        0.34inch (8.67mm)
+T6      35mil (0.9mm)                                             Round             72        PTH        10.69inch (271.57mm)
+T7      39mil (1mm)                                               Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              170
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -49,23 +49,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Ramp-generator.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=Output_schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +65,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SBZCFDPE
 
-[Document3]
+[Document2]
 DocumentPath=Output_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MRMAFVQD
 
-[Document4]
+[Document3]
 DocumentPath=Ramp-generator.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=..\..\..\Altium Component Library\Altium CERN Library (mar 2013)\CernLib\PcbLib\ICs And Semiconductors SMD.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IWSNMFKF
 
-[Document6]
+[Document5]
 DocumentPath=..\..\..\Altium Component Library\Altium Unified Components\Linear Technology\Linear Technology Operational Amplifiers (LT2000-LT6000).IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=4layer_main_board.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,8 +150,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=..\..\..\Altium Component Library\Altium CERN Library (mar 2013)\CernLib\SchLib\Operational Amplifiers.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RRCXNDBK
+
+[Document8]
+DocumentPath=Job1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -194,6 +194,62 @@ DItemRevisionGUID=
 
 [GeneratedDocument3]
 DocumentPath=Project Outputs for Ramp-generator\4layer_main_board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=..\Project_Files\Gerbers\Output board\Output_PCB.TXT
 DItemRevisionGUID=
 
 [Configuration1]
