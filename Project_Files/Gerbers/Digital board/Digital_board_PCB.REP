@@ -2,46 +2,6 @@
 FileName = Digital_board_PCB.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Paste
-      File : Digital_board_PCB.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D35
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D60
-    D61
-    D62
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Digital_board_PCB.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-*************************************************************
-
-*************************************************************
 Generating : Bottom Overlay
       File : Digital_board_PCB.GBO
 
@@ -58,8 +18,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : Digital_board_PCB.GTL
+Generating : Top Solder
+      File : Digital_board_PCB.GTS
+
+    Adding Layer      : Top Solder
 
     Adding Layer      : Top Layer
 
@@ -67,33 +29,15 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : Digital_board_PCB.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
 *************************************************************
 
 *************************************************************
@@ -135,10 +79,24 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : Digital_board_PCB.GBS
+Generating : Top Paste
+      File : Digital_board_PCB.GTP
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Digital_board_PCB.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -146,39 +104,35 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
+    D35
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
     D46
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
+    D60
+    D61
+    D62
 *************************************************************
 
 *************************************************************
-Generating : Int1 (GND)
-      File : Digital_board_PCB.G1
+Generating : Top Layer
+      File : Digital_board_PCB.GTL
 
-    Adding Layer      : Int1 (GND)
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D21
+    D22
+    D23
     D24
     D25
     D26
@@ -192,26 +146,15 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : Digital_board_PCB.GTS
+Generating : Top Overlay
+      File : Digital_board_PCB.GTO
 
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
+    D10
+    D11
 *************************************************************
 
 *************************************************************
@@ -247,6 +190,63 @@ Used DCodes :
     D32
     D33
     D34
+*************************************************************
+
+*************************************************************
+Generating : Int1 (GND)
+      File : Digital_board_PCB.G1
+
+    Adding Layer      : Int1 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Digital_board_PCB.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D46
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
 *************************************************************
 
 *************************************************************

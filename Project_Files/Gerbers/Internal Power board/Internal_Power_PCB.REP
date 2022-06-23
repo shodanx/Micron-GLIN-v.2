@@ -2,15 +2,51 @@
 FileName = Internal_Power_PCB.GBR
 AutoAperture = True
 *************************************************************
-Generating : Keep-Out Layer
-      File : Internal_Power_PCB.GKO
+Generating : Bottom Paste
+      File : Internal_Power_PCB.GBP
 
-    Adding Layer      : Keep-Out Layer
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Internal_Power_PCB.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Internal_Power_PCB.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
     D12
+    D13
+    D14
     D15
+    D16
+    D17
+    D18
+    D19
 *************************************************************
 
 *************************************************************
@@ -51,26 +87,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : Internal_Power_PCB.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-*************************************************************
-
-*************************************************************
 Generating : Top Paste
       File : Internal_Power_PCB.GTP
 
@@ -105,32 +121,6 @@ Used DCodes :
     D40
     D41
     D42
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Internal_Power_PCB.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : Internal_Power_PCB.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -172,10 +162,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : Internal_Power_PCB.GBS
-
-    Adding Layer      : Bottom Solder
+Generating : Bottom Layer
+      File : Internal_Power_PCB.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -183,6 +171,18 @@ Generating : Bottom Solder
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Internal_Power_PCB.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D12
+    D15
 *************************************************************
 
 *************************************************************

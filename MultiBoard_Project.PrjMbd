@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=
+OutputPath=Project Outputs for MultiBoard_Project
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -63,7 +63,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=1c627044-d6ff-4b7b-bc2f-873a051c1f86
+DocumentUniqueId=f93d12fb-93d1-44ec-9f0e-87cf92e01258
 
 [Document2]
 DocumentPath=MultiBoardSchematic1.MbsDoc
@@ -272,7 +272,7 @@ SCH_HasExpandLogicalToPhysicalSheets=0
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for MultiBoard_Project
 
 [OutputGroup1]
 Name=Netlist Outputs
