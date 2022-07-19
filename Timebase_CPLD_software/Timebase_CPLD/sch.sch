@@ -17,7 +17,6 @@
         <signal name="XLXN_226" />
         <signal name="DDS_FREQ" />
         <signal name="dds_timer_OL" />
-        <signal name="XLXN_252" />
         <signal name="CFG_N(15:0)" />
         <signal name="Freq_control(3:0)" />
         <signal name="Freq_control(0)" />
@@ -58,11 +57,9 @@
         <signal name="IN_10MHz" />
         <signal name="XLXN_239" />
         <signal name="XLXN_243" />
-        <signal name="XLXN_334" />
         <signal name="Block_timer_after_overload_until_new_cycle" />
         <signal name="CPU_IRQ" />
         <signal name="Block_IRQ_afrer_timeout" />
-        <signal name="XLXN_338" />
         <port polarity="Output" name="DAC_LDAC" />
         <port polarity="Input" name="DDS_FREQ" />
         <port polarity="Input" name="Freq_control(3:0)" />
