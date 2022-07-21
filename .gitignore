@@ -16,3 +16,10 @@ History
 /Internal_power_board_1layer_Alluminius 5025/Project Outputs for Ramp-generator
 /Output_module_4layer/Project Outputs for Ramp-generator
 /docs/__Previews/*.SchDocPreview
+/Active_GLONASS_GPS_antenna/PCB_Project/Project Outputs for GNSS-Antenna
+/Active_GLONASS_GPS_antenna/PCB_Project/Project Logs for GNSS-Antenna/*.LOG
+/External_power_board_2layer(Kradex Z4 case)/__Previews/*.SchDocPreview
+/Active_GLONASS_GPS_antenna/PCB_Project/__Previews/*.SchDocPreview
+*.SchDocPreview
+*.LOG
+*.schbak

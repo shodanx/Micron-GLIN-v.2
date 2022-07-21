@@ -1,0 +1,30 @@
+Board Information Report
+Filename     : C:\Проекты\Micron-GLIN-v.2\Timebase_board_4layer\Timebase_PCB.PcbDoc
+Date         : 19.07.2022
+Time         : 2:53:04
+Time Elapsed : 00:00:00
+
+Non-Plated Hole Size, Pads, Vias
+    0mm, 14, 0
+count : 1
+
+Plated Hole Size, Pads, Vias
+    0mm, 203, 0
+    0.254mm, 0, 163
+    0.3mm, 0, 80
+    0.4mm, 0, 430
+    0.85mm, 15, 0
+    0.9mm, 78, 0
+    0.96mm, 5, 0
+    1mm, 0, 1
+    1.3mm, 2, 0
+count : 9
+
+Pad Solder Mask, Count
+    0.0635mm, 291
+    0.1016mm, 26
+count : 2
+
+Net Via Size, Count
+    0.5588mm, 58
+count : 1
