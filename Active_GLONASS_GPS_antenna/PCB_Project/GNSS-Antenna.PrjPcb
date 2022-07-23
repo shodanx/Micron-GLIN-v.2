@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for GNSS-Antenna
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -151,178 +151,110 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument3]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.G1
-DItemRevisionGUID=
-
-[GeneratedDocument6]
+[GeneratedDocument3]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.G1
 DItemRevisionGUID=
 
-[GeneratedDocument7]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.G2
-DItemRevisionGUID=
-
-[GeneratedDocument8]
+[GeneratedDocument4]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.G2
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
+[GeneratedDocument5]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument12]
+[GeneratedDocument6]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument13]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
+[GeneratedDocument7]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
+[GeneratedDocument8]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument17]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
+[GeneratedDocument9]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument10]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument21]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument22]
+[GeneratedDocument11]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument23]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
+[GeneratedDocument12]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument25]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument26]
+[GeneratedDocument13]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument27]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument28]
+[GeneratedDocument14]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument29]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument30]
+[GeneratedDocument15]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument31]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument32]
+[GeneratedDocument16]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\AntennaPCB.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.G1
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.G2
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for GNSS-Antenna\PCB1.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument43]
-DocumentPath=..\Project_Files\Gerbers\Active_GNSS_antenna\Timebase_PCB.GM
-DItemRevisionGUID=
-
-[GeneratedDocument44]
+[GeneratedDocument27]
 DocumentPath=..\..\Project_Files\Gerbers\Active_GNSS_antenna\Timebase_PCB.GM
 DItemRevisionGUID=
 
@@ -337,7 +269,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for GNSS-Antenna
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
